@@ -1,26 +1,192 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --surface-0: #0b0c0e;
+  --surface-1: #131518;
+  --surface-2: #1b1e22;
+  --surface-3: #242830;
+
+  --fg-0: #e6e8eb;
+  --fg-1: #a0a6ad;
+  --fg-2: #5e646b;
+
+  --signal: #4fb3a9;
+  --signal-dim: rgba(79, 179, 169, 0.4);
+  --intervention: #d87b3c;
+  --intervention-dim: rgba(216, 123, 60, 0.4);
+  --critical: #c8553d;
+
+  --rule: rgba(255, 255, 255, 0.06);
+  --rule-strong: rgba(255, 255, 255, 0.12);
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface-0: var(--surface-0);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-fg-0: var(--fg-0);
+  --color-fg-1: var(--fg-1);
+  --color-fg-2: var(--fg-2);
+  --color-signal: var(--signal);
+  --color-signal-dim: var(--signal-dim);
+  --color-intervention: var(--intervention);
+  --color-intervention-dim: var(--intervention-dim);
+  --color-critical: var(--critical);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--surface-0);
+  color: var(--fg-0);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--signal);
+  color: var(--surface-0);
+}
+
+.font-mono {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-feature-settings: "liga" 0;
+}
+
+.grid-bg {
+  background-image: linear-gradient(var(--rule) 1px, transparent 1px),
+    linear-gradient(90deg, var(--rule) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.hairline-t {
+  border-top: 1px solid var(--rule);
+}
+
+.hairline-b {
+  border-bottom: 1px solid var(--rule);
+}
+
+.hairline-l {
+  border-left: 1px solid var(--rule);
+}
+
+.hairline-r {
+  border-right: 1px solid var(--rule);
+}
+
+.tick-marks {
+  position: relative;
+}
+
+.tick-marks::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--rule-strong) 0,
+    var(--rule-strong) 1px,
+    transparent 1px,
+    transparent 10px
+  );
+}
+
+input[type="text"],
+input[type="search"] {
+  background: var(--surface-1);
+  border: 1px solid var(--rule-strong);
+  color: var(--fg-0);
+  font-family: var(--font-jetbrains), monospace;
+  border-radius: var(--radius-sm);
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+input[type="text"]:focus,
+input[type="search"]:focus {
+  border-color: var(--signal);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+}
+
+.btn-primary {
+  background: var(--signal);
+  color: var(--surface-0);
+  font-family: var(--font-jetbrains), monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  transition: opacity 0.15s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.85;
+}
+
+.btn-secondary {
+  background: var(--surface-2);
+  color: var(--fg-1);
+  font-family: var(--font-jetbrains), monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--rule-strong);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-secondary:hover {
+  border-color: var(--fg-2);
+  color: var(--fg-0);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--surface-1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--surface-3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--fg-2);
 }

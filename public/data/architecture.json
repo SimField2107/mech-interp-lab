@@ -1,0 +1,7748 @@
+{
+  "layers": 12,
+  "headsPerLayer": 12,
+  "hiddenDim": 768,
+  "mlpNeuronsPerLayer": 80,
+  "nodes": [
+    {
+      "id": "embed",
+      "type": "embed",
+      "layer": 0,
+      "label": "Embed"
+    },
+    {
+      "id": "L01.H00",
+      "type": "attn",
+      "layer": 1,
+      "head": 0,
+      "label": "L1.H0"
+    },
+    {
+      "id": "L01.H01",
+      "type": "attn",
+      "layer": 1,
+      "head": 1,
+      "label": "L1.H1"
+    },
+    {
+      "id": "L01.H02",
+      "type": "attn",
+      "layer": 1,
+      "head": 2,
+      "label": "L1.H2"
+    },
+    {
+      "id": "L01.H03",
+      "type": "attn",
+      "layer": 1,
+      "head": 3,
+      "label": "L1.H3"
+    },
+    {
+      "id": "L01.H04",
+      "type": "attn",
+      "layer": 1,
+      "head": 4,
+      "label": "L1.H4"
+    },
+    {
+      "id": "L01.H05",
+      "type": "attn",
+      "layer": 1,
+      "head": 5,
+      "label": "L1.H5"
+    },
+    {
+      "id": "L01.H06",
+      "type": "attn",
+      "layer": 1,
+      "head": 6,
+      "label": "L1.H6"
+    },
+    {
+      "id": "L01.H07",
+      "type": "attn",
+      "layer": 1,
+      "head": 7,
+      "label": "L1.H7"
+    },
+    {
+      "id": "L01.H08",
+      "type": "attn",
+      "layer": 1,
+      "head": 8,
+      "label": "L1.H8"
+    },
+    {
+      "id": "L01.H09",
+      "type": "attn",
+      "layer": 1,
+      "head": 9,
+      "label": "L1.H9"
+    },
+    {
+      "id": "L01.H10",
+      "type": "attn",
+      "layer": 1,
+      "head": 10,
+      "label": "L1.H10"
+    },
+    {
+      "id": "L01.H11",
+      "type": "attn",
+      "layer": 1,
+      "head": 11,
+      "label": "L1.H11"
+    },
+    {
+      "id": "L01.N000",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 0,
+      "label": "L1.N0"
+    },
+    {
+      "id": "L01.N001",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 1,
+      "label": "L1.N1"
+    },
+    {
+      "id": "L01.N002",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 2,
+      "label": "L1.N2"
+    },
+    {
+      "id": "L01.N003",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 3,
+      "label": "L1.N3"
+    },
+    {
+      "id": "L01.N004",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 4,
+      "label": "L1.N4"
+    },
+    {
+      "id": "L01.N005",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 5,
+      "label": "L1.N5"
+    },
+    {
+      "id": "L01.N006",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 6,
+      "label": "L1.N6"
+    },
+    {
+      "id": "L01.N007",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 7,
+      "label": "L1.N7"
+    },
+    {
+      "id": "L01.N008",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 8,
+      "label": "L1.N8"
+    },
+    {
+      "id": "L01.N009",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 9,
+      "label": "L1.N9"
+    },
+    {
+      "id": "L01.N010",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 10,
+      "label": "L1.N10"
+    },
+    {
+      "id": "L01.N011",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 11,
+      "label": "L1.N11"
+    },
+    {
+      "id": "L01.N012",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 12,
+      "label": "L1.N12"
+    },
+    {
+      "id": "L01.N013",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 13,
+      "label": "L1.N13"
+    },
+    {
+      "id": "L01.N014",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 14,
+      "label": "L1.N14"
+    },
+    {
+      "id": "L01.N015",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 15,
+      "label": "L1.N15"
+    },
+    {
+      "id": "L01.N016",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 16,
+      "label": "L1.N16"
+    },
+    {
+      "id": "L01.N017",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 17,
+      "label": "L1.N17"
+    },
+    {
+      "id": "L01.N018",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 18,
+      "label": "L1.N18"
+    },
+    {
+      "id": "L01.N019",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 19,
+      "label": "L1.N19"
+    },
+    {
+      "id": "L01.N020",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 20,
+      "label": "L1.N20"
+    },
+    {
+      "id": "L01.N021",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 21,
+      "label": "L1.N21"
+    },
+    {
+      "id": "L01.N022",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 22,
+      "label": "L1.N22"
+    },
+    {
+      "id": "L01.N023",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 23,
+      "label": "L1.N23"
+    },
+    {
+      "id": "L01.N024",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 24,
+      "label": "L1.N24"
+    },
+    {
+      "id": "L01.N025",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 25,
+      "label": "L1.N25"
+    },
+    {
+      "id": "L01.N026",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 26,
+      "label": "L1.N26"
+    },
+    {
+      "id": "L01.N027",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 27,
+      "label": "L1.N27"
+    },
+    {
+      "id": "L01.N028",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 28,
+      "label": "L1.N28"
+    },
+    {
+      "id": "L01.N029",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 29,
+      "label": "L1.N29"
+    },
+    {
+      "id": "L01.N030",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 30,
+      "label": "L1.N30"
+    },
+    {
+      "id": "L01.N031",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 31,
+      "label": "L1.N31"
+    },
+    {
+      "id": "L01.N032",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 32,
+      "label": "L1.N32"
+    },
+    {
+      "id": "L01.N033",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 33,
+      "label": "L1.N33"
+    },
+    {
+      "id": "L01.N034",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 34,
+      "label": "L1.N34"
+    },
+    {
+      "id": "L01.N035",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 35,
+      "label": "L1.N35"
+    },
+    {
+      "id": "L01.N036",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 36,
+      "label": "L1.N36"
+    },
+    {
+      "id": "L01.N037",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 37,
+      "label": "L1.N37"
+    },
+    {
+      "id": "L01.N038",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 38,
+      "label": "L1.N38"
+    },
+    {
+      "id": "L01.N039",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 39,
+      "label": "L1.N39"
+    },
+    {
+      "id": "L01.N040",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 40,
+      "label": "L1.N40"
+    },
+    {
+      "id": "L01.N041",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 41,
+      "label": "L1.N41"
+    },
+    {
+      "id": "L01.N042",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 42,
+      "label": "L1.N42"
+    },
+    {
+      "id": "L01.N043",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 43,
+      "label": "L1.N43"
+    },
+    {
+      "id": "L01.N044",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 44,
+      "label": "L1.N44"
+    },
+    {
+      "id": "L01.N045",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 45,
+      "label": "L1.N45"
+    },
+    {
+      "id": "L01.N046",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 46,
+      "label": "L1.N46"
+    },
+    {
+      "id": "L01.N047",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 47,
+      "label": "L1.N47"
+    },
+    {
+      "id": "L01.N048",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 48,
+      "label": "L1.N48"
+    },
+    {
+      "id": "L01.N049",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 49,
+      "label": "L1.N49"
+    },
+    {
+      "id": "L01.N050",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 50,
+      "label": "L1.N50"
+    },
+    {
+      "id": "L01.N051",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 51,
+      "label": "L1.N51"
+    },
+    {
+      "id": "L01.N052",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 52,
+      "label": "L1.N52"
+    },
+    {
+      "id": "L01.N053",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 53,
+      "label": "L1.N53"
+    },
+    {
+      "id": "L01.N054",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 54,
+      "label": "L1.N54"
+    },
+    {
+      "id": "L01.N055",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 55,
+      "label": "L1.N55"
+    },
+    {
+      "id": "L01.N056",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 56,
+      "label": "L1.N56"
+    },
+    {
+      "id": "L01.N057",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 57,
+      "label": "L1.N57"
+    },
+    {
+      "id": "L01.N058",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 58,
+      "label": "L1.N58"
+    },
+    {
+      "id": "L01.N059",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 59,
+      "label": "L1.N59"
+    },
+    {
+      "id": "L01.N060",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 60,
+      "label": "L1.N60"
+    },
+    {
+      "id": "L01.N061",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 61,
+      "label": "L1.N61"
+    },
+    {
+      "id": "L01.N062",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 62,
+      "label": "L1.N62"
+    },
+    {
+      "id": "L01.N063",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 63,
+      "label": "L1.N63"
+    },
+    {
+      "id": "L01.N064",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 64,
+      "label": "L1.N64"
+    },
+    {
+      "id": "L01.N065",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 65,
+      "label": "L1.N65"
+    },
+    {
+      "id": "L01.N066",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 66,
+      "label": "L1.N66"
+    },
+    {
+      "id": "L01.N067",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 67,
+      "label": "L1.N67"
+    },
+    {
+      "id": "L01.N068",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 68,
+      "label": "L1.N68"
+    },
+    {
+      "id": "L01.N069",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 69,
+      "label": "L1.N69"
+    },
+    {
+      "id": "L01.N070",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 70,
+      "label": "L1.N70"
+    },
+    {
+      "id": "L01.N071",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 71,
+      "label": "L1.N71"
+    },
+    {
+      "id": "L01.N072",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 72,
+      "label": "L1.N72"
+    },
+    {
+      "id": "L01.N073",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 73,
+      "label": "L1.N73"
+    },
+    {
+      "id": "L01.N074",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 74,
+      "label": "L1.N74"
+    },
+    {
+      "id": "L01.N075",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 75,
+      "label": "L1.N75"
+    },
+    {
+      "id": "L01.N076",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 76,
+      "label": "L1.N76"
+    },
+    {
+      "id": "L01.N077",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 77,
+      "label": "L1.N77"
+    },
+    {
+      "id": "L01.N078",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 78,
+      "label": "L1.N78"
+    },
+    {
+      "id": "L01.N079",
+      "type": "mlp",
+      "layer": 1,
+      "neuronIdx": 79,
+      "label": "L1.N79"
+    },
+    {
+      "id": "L02.H00",
+      "type": "attn",
+      "layer": 2,
+      "head": 0,
+      "label": "L2.H0"
+    },
+    {
+      "id": "L02.H01",
+      "type": "attn",
+      "layer": 2,
+      "head": 1,
+      "label": "L2.H1"
+    },
+    {
+      "id": "L02.H02",
+      "type": "attn",
+      "layer": 2,
+      "head": 2,
+      "label": "L2.H2"
+    },
+    {
+      "id": "L02.H03",
+      "type": "attn",
+      "layer": 2,
+      "head": 3,
+      "label": "L2.H3"
+    },
+    {
+      "id": "L02.H04",
+      "type": "attn",
+      "layer": 2,
+      "head": 4,
+      "label": "L2.H4"
+    },
+    {
+      "id": "L02.H05",
+      "type": "attn",
+      "layer": 2,
+      "head": 5,
+      "label": "L2.H5"
+    },
+    {
+      "id": "L02.H06",
+      "type": "attn",
+      "layer": 2,
+      "head": 6,
+      "label": "L2.H6"
+    },
+    {
+      "id": "L02.H07",
+      "type": "attn",
+      "layer": 2,
+      "head": 7,
+      "label": "L2.H7"
+    },
+    {
+      "id": "L02.H08",
+      "type": "attn",
+      "layer": 2,
+      "head": 8,
+      "label": "L2.H8"
+    },
+    {
+      "id": "L02.H09",
+      "type": "attn",
+      "layer": 2,
+      "head": 9,
+      "label": "L2.H9"
+    },
+    {
+      "id": "L02.H10",
+      "type": "attn",
+      "layer": 2,
+      "head": 10,
+      "label": "L2.H10"
+    },
+    {
+      "id": "L02.H11",
+      "type": "attn",
+      "layer": 2,
+      "head": 11,
+      "label": "L2.H11"
+    },
+    {
+      "id": "L02.N000",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 0,
+      "label": "L2.N0"
+    },
+    {
+      "id": "L02.N001",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 1,
+      "label": "L2.N1"
+    },
+    {
+      "id": "L02.N002",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 2,
+      "label": "L2.N2"
+    },
+    {
+      "id": "L02.N003",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 3,
+      "label": "L2.N3"
+    },
+    {
+      "id": "L02.N004",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 4,
+      "label": "L2.N4"
+    },
+    {
+      "id": "L02.N005",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 5,
+      "label": "L2.N5"
+    },
+    {
+      "id": "L02.N006",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 6,
+      "label": "L2.N6"
+    },
+    {
+      "id": "L02.N007",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 7,
+      "label": "L2.N7"
+    },
+    {
+      "id": "L02.N008",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 8,
+      "label": "L2.N8"
+    },
+    {
+      "id": "L02.N009",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 9,
+      "label": "L2.N9"
+    },
+    {
+      "id": "L02.N010",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 10,
+      "label": "L2.N10"
+    },
+    {
+      "id": "L02.N011",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 11,
+      "label": "L2.N11"
+    },
+    {
+      "id": "L02.N012",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 12,
+      "label": "L2.N12"
+    },
+    {
+      "id": "L02.N013",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 13,
+      "label": "L2.N13"
+    },
+    {
+      "id": "L02.N014",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 14,
+      "label": "L2.N14"
+    },
+    {
+      "id": "L02.N015",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 15,
+      "label": "L2.N15"
+    },
+    {
+      "id": "L02.N016",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 16,
+      "label": "L2.N16"
+    },
+    {
+      "id": "L02.N017",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 17,
+      "label": "L2.N17"
+    },
+    {
+      "id": "L02.N018",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 18,
+      "label": "L2.N18"
+    },
+    {
+      "id": "L02.N019",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 19,
+      "label": "L2.N19"
+    },
+    {
+      "id": "L02.N020",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 20,
+      "label": "L2.N20"
+    },
+    {
+      "id": "L02.N021",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 21,
+      "label": "L2.N21"
+    },
+    {
+      "id": "L02.N022",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 22,
+      "label": "L2.N22"
+    },
+    {
+      "id": "L02.N023",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 23,
+      "label": "L2.N23"
+    },
+    {
+      "id": "L02.N024",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 24,
+      "label": "L2.N24"
+    },
+    {
+      "id": "L02.N025",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 25,
+      "label": "L2.N25"
+    },
+    {
+      "id": "L02.N026",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 26,
+      "label": "L2.N26"
+    },
+    {
+      "id": "L02.N027",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 27,
+      "label": "L2.N27"
+    },
+    {
+      "id": "L02.N028",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 28,
+      "label": "L2.N28"
+    },
+    {
+      "id": "L02.N029",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 29,
+      "label": "L2.N29"
+    },
+    {
+      "id": "L02.N030",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 30,
+      "label": "L2.N30"
+    },
+    {
+      "id": "L02.N031",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 31,
+      "label": "L2.N31"
+    },
+    {
+      "id": "L02.N032",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 32,
+      "label": "L2.N32"
+    },
+    {
+      "id": "L02.N033",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 33,
+      "label": "L2.N33"
+    },
+    {
+      "id": "L02.N034",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 34,
+      "label": "L2.N34"
+    },
+    {
+      "id": "L02.N035",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 35,
+      "label": "L2.N35"
+    },
+    {
+      "id": "L02.N036",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 36,
+      "label": "L2.N36"
+    },
+    {
+      "id": "L02.N037",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 37,
+      "label": "L2.N37"
+    },
+    {
+      "id": "L02.N038",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 38,
+      "label": "L2.N38"
+    },
+    {
+      "id": "L02.N039",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 39,
+      "label": "L2.N39"
+    },
+    {
+      "id": "L02.N040",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 40,
+      "label": "L2.N40"
+    },
+    {
+      "id": "L02.N041",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 41,
+      "label": "L2.N41"
+    },
+    {
+      "id": "L02.N042",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 42,
+      "label": "L2.N42"
+    },
+    {
+      "id": "L02.N043",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 43,
+      "label": "L2.N43"
+    },
+    {
+      "id": "L02.N044",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 44,
+      "label": "L2.N44"
+    },
+    {
+      "id": "L02.N045",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 45,
+      "label": "L2.N45"
+    },
+    {
+      "id": "L02.N046",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 46,
+      "label": "L2.N46"
+    },
+    {
+      "id": "L02.N047",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 47,
+      "label": "L2.N47"
+    },
+    {
+      "id": "L02.N048",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 48,
+      "label": "L2.N48"
+    },
+    {
+      "id": "L02.N049",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 49,
+      "label": "L2.N49"
+    },
+    {
+      "id": "L02.N050",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 50,
+      "label": "L2.N50"
+    },
+    {
+      "id": "L02.N051",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 51,
+      "label": "L2.N51"
+    },
+    {
+      "id": "L02.N052",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 52,
+      "label": "L2.N52"
+    },
+    {
+      "id": "L02.N053",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 53,
+      "label": "L2.N53"
+    },
+    {
+      "id": "L02.N054",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 54,
+      "label": "L2.N54"
+    },
+    {
+      "id": "L02.N055",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 55,
+      "label": "L2.N55"
+    },
+    {
+      "id": "L02.N056",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 56,
+      "label": "L2.N56"
+    },
+    {
+      "id": "L02.N057",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 57,
+      "label": "L2.N57"
+    },
+    {
+      "id": "L02.N058",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 58,
+      "label": "L2.N58"
+    },
+    {
+      "id": "L02.N059",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 59,
+      "label": "L2.N59"
+    },
+    {
+      "id": "L02.N060",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 60,
+      "label": "L2.N60"
+    },
+    {
+      "id": "L02.N061",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 61,
+      "label": "L2.N61"
+    },
+    {
+      "id": "L02.N062",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 62,
+      "label": "L2.N62"
+    },
+    {
+      "id": "L02.N063",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 63,
+      "label": "L2.N63"
+    },
+    {
+      "id": "L02.N064",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 64,
+      "label": "L2.N64"
+    },
+    {
+      "id": "L02.N065",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 65,
+      "label": "L2.N65"
+    },
+    {
+      "id": "L02.N066",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 66,
+      "label": "L2.N66"
+    },
+    {
+      "id": "L02.N067",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 67,
+      "label": "L2.N67"
+    },
+    {
+      "id": "L02.N068",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 68,
+      "label": "L2.N68"
+    },
+    {
+      "id": "L02.N069",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 69,
+      "label": "L2.N69"
+    },
+    {
+      "id": "L02.N070",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 70,
+      "label": "L2.N70"
+    },
+    {
+      "id": "L02.N071",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 71,
+      "label": "L2.N71"
+    },
+    {
+      "id": "L02.N072",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 72,
+      "label": "L2.N72"
+    },
+    {
+      "id": "L02.N073",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 73,
+      "label": "L2.N73"
+    },
+    {
+      "id": "L02.N074",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 74,
+      "label": "L2.N74"
+    },
+    {
+      "id": "L02.N075",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 75,
+      "label": "L2.N75"
+    },
+    {
+      "id": "L02.N076",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 76,
+      "label": "L2.N76"
+    },
+    {
+      "id": "L02.N077",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 77,
+      "label": "L2.N77"
+    },
+    {
+      "id": "L02.N078",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 78,
+      "label": "L2.N78"
+    },
+    {
+      "id": "L02.N079",
+      "type": "mlp",
+      "layer": 2,
+      "neuronIdx": 79,
+      "label": "L2.N79"
+    },
+    {
+      "id": "L03.H00",
+      "type": "attn",
+      "layer": 3,
+      "head": 0,
+      "label": "L3.H0"
+    },
+    {
+      "id": "L03.H01",
+      "type": "attn",
+      "layer": 3,
+      "head": 1,
+      "label": "L3.H1"
+    },
+    {
+      "id": "L03.H02",
+      "type": "attn",
+      "layer": 3,
+      "head": 2,
+      "label": "L3.H2"
+    },
+    {
+      "id": "L03.H03",
+      "type": "attn",
+      "layer": 3,
+      "head": 3,
+      "label": "L3.H3"
+    },
+    {
+      "id": "L03.H04",
+      "type": "attn",
+      "layer": 3,
+      "head": 4,
+      "label": "L3.H4"
+    },
+    {
+      "id": "L03.H05",
+      "type": "attn",
+      "layer": 3,
+      "head": 5,
+      "label": "L3.H5"
+    },
+    {
+      "id": "L03.H06",
+      "type": "attn",
+      "layer": 3,
+      "head": 6,
+      "label": "L3.H6"
+    },
+    {
+      "id": "L03.H07",
+      "type": "attn",
+      "layer": 3,
+      "head": 7,
+      "label": "L3.H7"
+    },
+    {
+      "id": "L03.H08",
+      "type": "attn",
+      "layer": 3,
+      "head": 8,
+      "label": "L3.H8"
+    },
+    {
+      "id": "L03.H09",
+      "type": "attn",
+      "layer": 3,
+      "head": 9,
+      "label": "L3.H9"
+    },
+    {
+      "id": "L03.H10",
+      "type": "attn",
+      "layer": 3,
+      "head": 10,
+      "label": "L3.H10"
+    },
+    {
+      "id": "L03.H11",
+      "type": "attn",
+      "layer": 3,
+      "head": 11,
+      "label": "L3.H11"
+    },
+    {
+      "id": "L03.N000",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 0,
+      "label": "L3.N0"
+    },
+    {
+      "id": "L03.N001",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 1,
+      "label": "L3.N1"
+    },
+    {
+      "id": "L03.N002",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 2,
+      "label": "L3.N2"
+    },
+    {
+      "id": "L03.N003",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 3,
+      "label": "L3.N3"
+    },
+    {
+      "id": "L03.N004",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 4,
+      "label": "L3.N4"
+    },
+    {
+      "id": "L03.N005",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 5,
+      "label": "L3.N5"
+    },
+    {
+      "id": "L03.N006",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 6,
+      "label": "L3.N6"
+    },
+    {
+      "id": "L03.N007",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 7,
+      "label": "L3.N7"
+    },
+    {
+      "id": "L03.N008",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 8,
+      "label": "L3.N8"
+    },
+    {
+      "id": "L03.N009",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 9,
+      "label": "L3.N9"
+    },
+    {
+      "id": "L03.N010",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 10,
+      "label": "L3.N10"
+    },
+    {
+      "id": "L03.N011",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 11,
+      "label": "L3.N11"
+    },
+    {
+      "id": "L03.N012",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 12,
+      "label": "L3.N12"
+    },
+    {
+      "id": "L03.N013",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 13,
+      "label": "L3.N13"
+    },
+    {
+      "id": "L03.N014",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 14,
+      "label": "L3.N14"
+    },
+    {
+      "id": "L03.N015",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 15,
+      "label": "L3.N15"
+    },
+    {
+      "id": "L03.N016",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 16,
+      "label": "L3.N16"
+    },
+    {
+      "id": "L03.N017",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 17,
+      "label": "L3.N17"
+    },
+    {
+      "id": "L03.N018",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 18,
+      "label": "L3.N18"
+    },
+    {
+      "id": "L03.N019",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 19,
+      "label": "L3.N19"
+    },
+    {
+      "id": "L03.N020",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 20,
+      "label": "L3.N20"
+    },
+    {
+      "id": "L03.N021",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 21,
+      "label": "L3.N21"
+    },
+    {
+      "id": "L03.N022",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 22,
+      "label": "L3.N22"
+    },
+    {
+      "id": "L03.N023",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 23,
+      "label": "L3.N23"
+    },
+    {
+      "id": "L03.N024",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 24,
+      "label": "L3.N24"
+    },
+    {
+      "id": "L03.N025",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 25,
+      "label": "L3.N25"
+    },
+    {
+      "id": "L03.N026",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 26,
+      "label": "L3.N26"
+    },
+    {
+      "id": "L03.N027",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 27,
+      "label": "L3.N27"
+    },
+    {
+      "id": "L03.N028",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 28,
+      "label": "L3.N28"
+    },
+    {
+      "id": "L03.N029",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 29,
+      "label": "L3.N29"
+    },
+    {
+      "id": "L03.N030",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 30,
+      "label": "L3.N30"
+    },
+    {
+      "id": "L03.N031",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 31,
+      "label": "L3.N31"
+    },
+    {
+      "id": "L03.N032",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 32,
+      "label": "L3.N32"
+    },
+    {
+      "id": "L03.N033",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 33,
+      "label": "L3.N33"
+    },
+    {
+      "id": "L03.N034",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 34,
+      "label": "L3.N34"
+    },
+    {
+      "id": "L03.N035",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 35,
+      "label": "L3.N35"
+    },
+    {
+      "id": "L03.N036",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 36,
+      "label": "L3.N36"
+    },
+    {
+      "id": "L03.N037",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 37,
+      "label": "L3.N37"
+    },
+    {
+      "id": "L03.N038",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 38,
+      "label": "L3.N38"
+    },
+    {
+      "id": "L03.N039",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 39,
+      "label": "L3.N39"
+    },
+    {
+      "id": "L03.N040",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 40,
+      "label": "L3.N40"
+    },
+    {
+      "id": "L03.N041",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 41,
+      "label": "L3.N41"
+    },
+    {
+      "id": "L03.N042",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 42,
+      "label": "L3.N42"
+    },
+    {
+      "id": "L03.N043",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 43,
+      "label": "L3.N43"
+    },
+    {
+      "id": "L03.N044",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 44,
+      "label": "L3.N44"
+    },
+    {
+      "id": "L03.N045",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 45,
+      "label": "L3.N45"
+    },
+    {
+      "id": "L03.N046",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 46,
+      "label": "L3.N46"
+    },
+    {
+      "id": "L03.N047",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 47,
+      "label": "L3.N47"
+    },
+    {
+      "id": "L03.N048",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 48,
+      "label": "L3.N48"
+    },
+    {
+      "id": "L03.N049",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 49,
+      "label": "L3.N49"
+    },
+    {
+      "id": "L03.N050",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 50,
+      "label": "L3.N50"
+    },
+    {
+      "id": "L03.N051",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 51,
+      "label": "L3.N51"
+    },
+    {
+      "id": "L03.N052",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 52,
+      "label": "L3.N52"
+    },
+    {
+      "id": "L03.N053",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 53,
+      "label": "L3.N53"
+    },
+    {
+      "id": "L03.N054",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 54,
+      "label": "L3.N54"
+    },
+    {
+      "id": "L03.N055",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 55,
+      "label": "L3.N55"
+    },
+    {
+      "id": "L03.N056",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 56,
+      "label": "L3.N56"
+    },
+    {
+      "id": "L03.N057",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 57,
+      "label": "L3.N57"
+    },
+    {
+      "id": "L03.N058",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 58,
+      "label": "L3.N58"
+    },
+    {
+      "id": "L03.N059",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 59,
+      "label": "L3.N59"
+    },
+    {
+      "id": "L03.N060",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 60,
+      "label": "L3.N60"
+    },
+    {
+      "id": "L03.N061",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 61,
+      "label": "L3.N61"
+    },
+    {
+      "id": "L03.N062",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 62,
+      "label": "L3.N62"
+    },
+    {
+      "id": "L03.N063",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 63,
+      "label": "L3.N63"
+    },
+    {
+      "id": "L03.N064",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 64,
+      "label": "L3.N64"
+    },
+    {
+      "id": "L03.N065",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 65,
+      "label": "L3.N65"
+    },
+    {
+      "id": "L03.N066",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 66,
+      "label": "L3.N66"
+    },
+    {
+      "id": "L03.N067",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 67,
+      "label": "L3.N67"
+    },
+    {
+      "id": "L03.N068",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 68,
+      "label": "L3.N68"
+    },
+    {
+      "id": "L03.N069",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 69,
+      "label": "L3.N69"
+    },
+    {
+      "id": "L03.N070",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 70,
+      "label": "L3.N70"
+    },
+    {
+      "id": "L03.N071",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 71,
+      "label": "L3.N71"
+    },
+    {
+      "id": "L03.N072",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 72,
+      "label": "L3.N72"
+    },
+    {
+      "id": "L03.N073",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 73,
+      "label": "L3.N73"
+    },
+    {
+      "id": "L03.N074",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 74,
+      "label": "L3.N74"
+    },
+    {
+      "id": "L03.N075",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 75,
+      "label": "L3.N75"
+    },
+    {
+      "id": "L03.N076",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 76,
+      "label": "L3.N76"
+    },
+    {
+      "id": "L03.N077",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 77,
+      "label": "L3.N77"
+    },
+    {
+      "id": "L03.N078",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 78,
+      "label": "L3.N78"
+    },
+    {
+      "id": "L03.N079",
+      "type": "mlp",
+      "layer": 3,
+      "neuronIdx": 79,
+      "label": "L3.N79"
+    },
+    {
+      "id": "L04.H00",
+      "type": "attn",
+      "layer": 4,
+      "head": 0,
+      "label": "L4.H0"
+    },
+    {
+      "id": "L04.H01",
+      "type": "attn",
+      "layer": 4,
+      "head": 1,
+      "label": "L4.H1"
+    },
+    {
+      "id": "L04.H02",
+      "type": "attn",
+      "layer": 4,
+      "head": 2,
+      "label": "L4.H2"
+    },
+    {
+      "id": "L04.H03",
+      "type": "attn",
+      "layer": 4,
+      "head": 3,
+      "label": "L4.H3"
+    },
+    {
+      "id": "L04.H04",
+      "type": "attn",
+      "layer": 4,
+      "head": 4,
+      "label": "L4.H4"
+    },
+    {
+      "id": "L04.H05",
+      "type": "attn",
+      "layer": 4,
+      "head": 5,
+      "label": "L4.H5"
+    },
+    {
+      "id": "L04.H06",
+      "type": "attn",
+      "layer": 4,
+      "head": 6,
+      "label": "L4.H6"
+    },
+    {
+      "id": "L04.H07",
+      "type": "attn",
+      "layer": 4,
+      "head": 7,
+      "label": "L4.H7"
+    },
+    {
+      "id": "L04.H08",
+      "type": "attn",
+      "layer": 4,
+      "head": 8,
+      "label": "L4.H8"
+    },
+    {
+      "id": "L04.H09",
+      "type": "attn",
+      "layer": 4,
+      "head": 9,
+      "label": "L4.H9"
+    },
+    {
+      "id": "L04.H10",
+      "type": "attn",
+      "layer": 4,
+      "head": 10,
+      "label": "L4.H10"
+    },
+    {
+      "id": "L04.H11",
+      "type": "attn",
+      "layer": 4,
+      "head": 11,
+      "label": "L4.H11"
+    },
+    {
+      "id": "L04.N000",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 0,
+      "label": "L4.N0"
+    },
+    {
+      "id": "L04.N001",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 1,
+      "label": "L4.N1"
+    },
+    {
+      "id": "L04.N002",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 2,
+      "label": "L4.N2"
+    },
+    {
+      "id": "L04.N003",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 3,
+      "label": "L4.N3"
+    },
+    {
+      "id": "L04.N004",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 4,
+      "label": "L4.N4"
+    },
+    {
+      "id": "L04.N005",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 5,
+      "label": "L4.N5"
+    },
+    {
+      "id": "L04.N006",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 6,
+      "label": "L4.N6"
+    },
+    {
+      "id": "L04.N007",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 7,
+      "label": "L4.N7"
+    },
+    {
+      "id": "L04.N008",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 8,
+      "label": "L4.N8"
+    },
+    {
+      "id": "L04.N009",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 9,
+      "label": "L4.N9"
+    },
+    {
+      "id": "L04.N010",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 10,
+      "label": "L4.N10"
+    },
+    {
+      "id": "L04.N011",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 11,
+      "label": "L4.N11"
+    },
+    {
+      "id": "L04.N012",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 12,
+      "label": "L4.N12"
+    },
+    {
+      "id": "L04.N013",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 13,
+      "label": "L4.N13"
+    },
+    {
+      "id": "L04.N014",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 14,
+      "label": "L4.N14"
+    },
+    {
+      "id": "L04.N015",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 15,
+      "label": "L4.N15"
+    },
+    {
+      "id": "L04.N016",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 16,
+      "label": "L4.N16"
+    },
+    {
+      "id": "L04.N017",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 17,
+      "label": "L4.N17"
+    },
+    {
+      "id": "L04.N018",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 18,
+      "label": "L4.N18"
+    },
+    {
+      "id": "L04.N019",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 19,
+      "label": "L4.N19"
+    },
+    {
+      "id": "L04.N020",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 20,
+      "label": "L4.N20"
+    },
+    {
+      "id": "L04.N021",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 21,
+      "label": "L4.N21"
+    },
+    {
+      "id": "L04.N022",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 22,
+      "label": "L4.N22"
+    },
+    {
+      "id": "L04.N023",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 23,
+      "label": "L4.N23"
+    },
+    {
+      "id": "L04.N024",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 24,
+      "label": "L4.N24"
+    },
+    {
+      "id": "L04.N025",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 25,
+      "label": "L4.N25"
+    },
+    {
+      "id": "L04.N026",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 26,
+      "label": "L4.N26"
+    },
+    {
+      "id": "L04.N027",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 27,
+      "label": "L4.N27"
+    },
+    {
+      "id": "L04.N028",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 28,
+      "label": "L4.N28"
+    },
+    {
+      "id": "L04.N029",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 29,
+      "label": "L4.N29"
+    },
+    {
+      "id": "L04.N030",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 30,
+      "label": "L4.N30"
+    },
+    {
+      "id": "L04.N031",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 31,
+      "label": "L4.N31"
+    },
+    {
+      "id": "L04.N032",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 32,
+      "label": "L4.N32"
+    },
+    {
+      "id": "L04.N033",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 33,
+      "label": "L4.N33"
+    },
+    {
+      "id": "L04.N034",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 34,
+      "label": "L4.N34"
+    },
+    {
+      "id": "L04.N035",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 35,
+      "label": "L4.N35"
+    },
+    {
+      "id": "L04.N036",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 36,
+      "label": "L4.N36"
+    },
+    {
+      "id": "L04.N037",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 37,
+      "label": "L4.N37"
+    },
+    {
+      "id": "L04.N038",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 38,
+      "label": "L4.N38"
+    },
+    {
+      "id": "L04.N039",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 39,
+      "label": "L4.N39"
+    },
+    {
+      "id": "L04.N040",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 40,
+      "label": "L4.N40"
+    },
+    {
+      "id": "L04.N041",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 41,
+      "label": "L4.N41"
+    },
+    {
+      "id": "L04.N042",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 42,
+      "label": "L4.N42"
+    },
+    {
+      "id": "L04.N043",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 43,
+      "label": "L4.N43"
+    },
+    {
+      "id": "L04.N044",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 44,
+      "label": "L4.N44"
+    },
+    {
+      "id": "L04.N045",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 45,
+      "label": "L4.N45"
+    },
+    {
+      "id": "L04.N046",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 46,
+      "label": "L4.N46"
+    },
+    {
+      "id": "L04.N047",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 47,
+      "label": "L4.N47"
+    },
+    {
+      "id": "L04.N048",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 48,
+      "label": "L4.N48"
+    },
+    {
+      "id": "L04.N049",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 49,
+      "label": "L4.N49"
+    },
+    {
+      "id": "L04.N050",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 50,
+      "label": "L4.N50"
+    },
+    {
+      "id": "L04.N051",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 51,
+      "label": "L4.N51"
+    },
+    {
+      "id": "L04.N052",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 52,
+      "label": "L4.N52"
+    },
+    {
+      "id": "L04.N053",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 53,
+      "label": "L4.N53"
+    },
+    {
+      "id": "L04.N054",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 54,
+      "label": "L4.N54"
+    },
+    {
+      "id": "L04.N055",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 55,
+      "label": "L4.N55"
+    },
+    {
+      "id": "L04.N056",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 56,
+      "label": "L4.N56"
+    },
+    {
+      "id": "L04.N057",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 57,
+      "label": "L4.N57"
+    },
+    {
+      "id": "L04.N058",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 58,
+      "label": "L4.N58"
+    },
+    {
+      "id": "L04.N059",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 59,
+      "label": "L4.N59"
+    },
+    {
+      "id": "L04.N060",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 60,
+      "label": "L4.N60"
+    },
+    {
+      "id": "L04.N061",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 61,
+      "label": "L4.N61"
+    },
+    {
+      "id": "L04.N062",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 62,
+      "label": "L4.N62"
+    },
+    {
+      "id": "L04.N063",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 63,
+      "label": "L4.N63"
+    },
+    {
+      "id": "L04.N064",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 64,
+      "label": "L4.N64"
+    },
+    {
+      "id": "L04.N065",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 65,
+      "label": "L4.N65"
+    },
+    {
+      "id": "L04.N066",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 66,
+      "label": "L4.N66"
+    },
+    {
+      "id": "L04.N067",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 67,
+      "label": "L4.N67"
+    },
+    {
+      "id": "L04.N068",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 68,
+      "label": "L4.N68"
+    },
+    {
+      "id": "L04.N069",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 69,
+      "label": "L4.N69"
+    },
+    {
+      "id": "L04.N070",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 70,
+      "label": "L4.N70"
+    },
+    {
+      "id": "L04.N071",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 71,
+      "label": "L4.N71"
+    },
+    {
+      "id": "L04.N072",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 72,
+      "label": "L4.N72"
+    },
+    {
+      "id": "L04.N073",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 73,
+      "label": "L4.N73"
+    },
+    {
+      "id": "L04.N074",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 74,
+      "label": "L4.N74"
+    },
+    {
+      "id": "L04.N075",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 75,
+      "label": "L4.N75"
+    },
+    {
+      "id": "L04.N076",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 76,
+      "label": "L4.N76"
+    },
+    {
+      "id": "L04.N077",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 77,
+      "label": "L4.N77"
+    },
+    {
+      "id": "L04.N078",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 78,
+      "label": "L4.N78"
+    },
+    {
+      "id": "L04.N079",
+      "type": "mlp",
+      "layer": 4,
+      "neuronIdx": 79,
+      "label": "L4.N79"
+    },
+    {
+      "id": "L05.H00",
+      "type": "attn",
+      "layer": 5,
+      "head": 0,
+      "label": "L5.H0"
+    },
+    {
+      "id": "L05.H01",
+      "type": "attn",
+      "layer": 5,
+      "head": 1,
+      "label": "L5.H1"
+    },
+    {
+      "id": "L05.H02",
+      "type": "attn",
+      "layer": 5,
+      "head": 2,
+      "label": "L5.H2"
+    },
+    {
+      "id": "L05.H03",
+      "type": "attn",
+      "layer": 5,
+      "head": 3,
+      "label": "L5.H3"
+    },
+    {
+      "id": "L05.H04",
+      "type": "attn",
+      "layer": 5,
+      "head": 4,
+      "label": "L5.H4"
+    },
+    {
+      "id": "L05.H05",
+      "type": "attn",
+      "layer": 5,
+      "head": 5,
+      "label": "L5.H5"
+    },
+    {
+      "id": "L05.H06",
+      "type": "attn",
+      "layer": 5,
+      "head": 6,
+      "label": "L5.H6"
+    },
+    {
+      "id": "L05.H07",
+      "type": "attn",
+      "layer": 5,
+      "head": 7,
+      "label": "L5.H7"
+    },
+    {
+      "id": "L05.H08",
+      "type": "attn",
+      "layer": 5,
+      "head": 8,
+      "label": "L5.H8"
+    },
+    {
+      "id": "L05.H09",
+      "type": "attn",
+      "layer": 5,
+      "head": 9,
+      "label": "L5.H9"
+    },
+    {
+      "id": "L05.H10",
+      "type": "attn",
+      "layer": 5,
+      "head": 10,
+      "label": "L5.H10"
+    },
+    {
+      "id": "L05.H11",
+      "type": "attn",
+      "layer": 5,
+      "head": 11,
+      "label": "L5.H11"
+    },
+    {
+      "id": "L05.N000",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 0,
+      "label": "L5.N0"
+    },
+    {
+      "id": "L05.N001",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 1,
+      "label": "L5.N1"
+    },
+    {
+      "id": "L05.N002",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 2,
+      "label": "L5.N2"
+    },
+    {
+      "id": "L05.N003",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 3,
+      "label": "L5.N3"
+    },
+    {
+      "id": "L05.N004",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 4,
+      "label": "L5.N4"
+    },
+    {
+      "id": "L05.N005",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 5,
+      "label": "L5.N5"
+    },
+    {
+      "id": "L05.N006",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 6,
+      "label": "L5.N6"
+    },
+    {
+      "id": "L05.N007",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 7,
+      "label": "L5.N7"
+    },
+    {
+      "id": "L05.N008",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 8,
+      "label": "L5.N8"
+    },
+    {
+      "id": "L05.N009",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 9,
+      "label": "L5.N9"
+    },
+    {
+      "id": "L05.N010",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 10,
+      "label": "L5.N10"
+    },
+    {
+      "id": "L05.N011",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 11,
+      "label": "L5.N11"
+    },
+    {
+      "id": "L05.N012",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 12,
+      "label": "L5.N12"
+    },
+    {
+      "id": "L05.N013",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 13,
+      "label": "L5.N13"
+    },
+    {
+      "id": "L05.N014",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 14,
+      "label": "L5.N14"
+    },
+    {
+      "id": "L05.N015",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 15,
+      "label": "L5.N15"
+    },
+    {
+      "id": "L05.N016",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 16,
+      "label": "L5.N16"
+    },
+    {
+      "id": "L05.N017",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 17,
+      "label": "L5.N17"
+    },
+    {
+      "id": "L05.N018",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 18,
+      "label": "L5.N18"
+    },
+    {
+      "id": "L05.N019",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 19,
+      "label": "L5.N19"
+    },
+    {
+      "id": "L05.N020",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 20,
+      "label": "L5.N20"
+    },
+    {
+      "id": "L05.N021",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 21,
+      "label": "L5.N21"
+    },
+    {
+      "id": "L05.N022",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 22,
+      "label": "L5.N22"
+    },
+    {
+      "id": "L05.N023",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 23,
+      "label": "L5.N23"
+    },
+    {
+      "id": "L05.N024",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 24,
+      "label": "L5.N24"
+    },
+    {
+      "id": "L05.N025",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 25,
+      "label": "L5.N25"
+    },
+    {
+      "id": "L05.N026",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 26,
+      "label": "L5.N26"
+    },
+    {
+      "id": "L05.N027",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 27,
+      "label": "L5.N27"
+    },
+    {
+      "id": "L05.N028",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 28,
+      "label": "L5.N28"
+    },
+    {
+      "id": "L05.N029",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 29,
+      "label": "L5.N29"
+    },
+    {
+      "id": "L05.N030",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 30,
+      "label": "L5.N30"
+    },
+    {
+      "id": "L05.N031",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 31,
+      "label": "L5.N31"
+    },
+    {
+      "id": "L05.N032",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 32,
+      "label": "L5.N32"
+    },
+    {
+      "id": "L05.N033",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 33,
+      "label": "L5.N33"
+    },
+    {
+      "id": "L05.N034",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 34,
+      "label": "L5.N34"
+    },
+    {
+      "id": "L05.N035",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 35,
+      "label": "L5.N35"
+    },
+    {
+      "id": "L05.N036",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 36,
+      "label": "L5.N36"
+    },
+    {
+      "id": "L05.N037",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 37,
+      "label": "L5.N37"
+    },
+    {
+      "id": "L05.N038",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 38,
+      "label": "L5.N38"
+    },
+    {
+      "id": "L05.N039",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 39,
+      "label": "L5.N39"
+    },
+    {
+      "id": "L05.N040",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 40,
+      "label": "L5.N40"
+    },
+    {
+      "id": "L05.N041",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 41,
+      "label": "L5.N41"
+    },
+    {
+      "id": "L05.N042",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 42,
+      "label": "L5.N42"
+    },
+    {
+      "id": "L05.N043",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 43,
+      "label": "L5.N43"
+    },
+    {
+      "id": "L05.N044",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 44,
+      "label": "L5.N44"
+    },
+    {
+      "id": "L05.N045",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 45,
+      "label": "L5.N45"
+    },
+    {
+      "id": "L05.N046",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 46,
+      "label": "L5.N46"
+    },
+    {
+      "id": "L05.N047",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 47,
+      "label": "L5.N47"
+    },
+    {
+      "id": "L05.N048",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 48,
+      "label": "L5.N48"
+    },
+    {
+      "id": "L05.N049",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 49,
+      "label": "L5.N49"
+    },
+    {
+      "id": "L05.N050",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 50,
+      "label": "L5.N50"
+    },
+    {
+      "id": "L05.N051",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 51,
+      "label": "L5.N51"
+    },
+    {
+      "id": "L05.N052",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 52,
+      "label": "L5.N52"
+    },
+    {
+      "id": "L05.N053",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 53,
+      "label": "L5.N53"
+    },
+    {
+      "id": "L05.N054",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 54,
+      "label": "L5.N54"
+    },
+    {
+      "id": "L05.N055",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 55,
+      "label": "L5.N55"
+    },
+    {
+      "id": "L05.N056",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 56,
+      "label": "L5.N56"
+    },
+    {
+      "id": "L05.N057",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 57,
+      "label": "L5.N57"
+    },
+    {
+      "id": "L05.N058",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 58,
+      "label": "L5.N58"
+    },
+    {
+      "id": "L05.N059",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 59,
+      "label": "L5.N59"
+    },
+    {
+      "id": "L05.N060",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 60,
+      "label": "L5.N60"
+    },
+    {
+      "id": "L05.N061",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 61,
+      "label": "L5.N61"
+    },
+    {
+      "id": "L05.N062",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 62,
+      "label": "L5.N62"
+    },
+    {
+      "id": "L05.N063",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 63,
+      "label": "L5.N63"
+    },
+    {
+      "id": "L05.N064",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 64,
+      "label": "L5.N64"
+    },
+    {
+      "id": "L05.N065",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 65,
+      "label": "L5.N65"
+    },
+    {
+      "id": "L05.N066",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 66,
+      "label": "L5.N66"
+    },
+    {
+      "id": "L05.N067",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 67,
+      "label": "L5.N67"
+    },
+    {
+      "id": "L05.N068",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 68,
+      "label": "L5.N68"
+    },
+    {
+      "id": "L05.N069",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 69,
+      "label": "L5.N69"
+    },
+    {
+      "id": "L05.N070",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 70,
+      "label": "L5.N70"
+    },
+    {
+      "id": "L05.N071",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 71,
+      "label": "L5.N71"
+    },
+    {
+      "id": "L05.N072",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 72,
+      "label": "L5.N72"
+    },
+    {
+      "id": "L05.N073",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 73,
+      "label": "L5.N73"
+    },
+    {
+      "id": "L05.N074",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 74,
+      "label": "L5.N74"
+    },
+    {
+      "id": "L05.N075",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 75,
+      "label": "L5.N75"
+    },
+    {
+      "id": "L05.N076",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 76,
+      "label": "L5.N76"
+    },
+    {
+      "id": "L05.N077",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 77,
+      "label": "L5.N77"
+    },
+    {
+      "id": "L05.N078",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 78,
+      "label": "L5.N78"
+    },
+    {
+      "id": "L05.N079",
+      "type": "mlp",
+      "layer": 5,
+      "neuronIdx": 79,
+      "label": "L5.N79"
+    },
+    {
+      "id": "L06.H00",
+      "type": "attn",
+      "layer": 6,
+      "head": 0,
+      "label": "L6.H0"
+    },
+    {
+      "id": "L06.H01",
+      "type": "attn",
+      "layer": 6,
+      "head": 1,
+      "label": "L6.H1"
+    },
+    {
+      "id": "L06.H02",
+      "type": "attn",
+      "layer": 6,
+      "head": 2,
+      "label": "L6.H2"
+    },
+    {
+      "id": "L06.H03",
+      "type": "attn",
+      "layer": 6,
+      "head": 3,
+      "label": "L6.H3"
+    },
+    {
+      "id": "L06.H04",
+      "type": "attn",
+      "layer": 6,
+      "head": 4,
+      "label": "L6.H4"
+    },
+    {
+      "id": "L06.H05",
+      "type": "attn",
+      "layer": 6,
+      "head": 5,
+      "label": "L6.H5"
+    },
+    {
+      "id": "L06.H06",
+      "type": "attn",
+      "layer": 6,
+      "head": 6,
+      "label": "L6.H6"
+    },
+    {
+      "id": "L06.H07",
+      "type": "attn",
+      "layer": 6,
+      "head": 7,
+      "label": "L6.H7"
+    },
+    {
+      "id": "L06.H08",
+      "type": "attn",
+      "layer": 6,
+      "head": 8,
+      "label": "L6.H8"
+    },
+    {
+      "id": "L06.H09",
+      "type": "attn",
+      "layer": 6,
+      "head": 9,
+      "label": "L6.H9"
+    },
+    {
+      "id": "L06.H10",
+      "type": "attn",
+      "layer": 6,
+      "head": 10,
+      "label": "L6.H10"
+    },
+    {
+      "id": "L06.H11",
+      "type": "attn",
+      "layer": 6,
+      "head": 11,
+      "label": "L6.H11"
+    },
+    {
+      "id": "L06.N000",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 0,
+      "label": "L6.N0"
+    },
+    {
+      "id": "L06.N001",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 1,
+      "label": "L6.N1"
+    },
+    {
+      "id": "L06.N002",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 2,
+      "label": "L6.N2"
+    },
+    {
+      "id": "L06.N003",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 3,
+      "label": "L6.N3"
+    },
+    {
+      "id": "L06.N004",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 4,
+      "label": "L6.N4"
+    },
+    {
+      "id": "L06.N005",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 5,
+      "label": "L6.N5"
+    },
+    {
+      "id": "L06.N006",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 6,
+      "label": "L6.N6"
+    },
+    {
+      "id": "L06.N007",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 7,
+      "label": "L6.N7"
+    },
+    {
+      "id": "L06.N008",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 8,
+      "label": "L6.N8"
+    },
+    {
+      "id": "L06.N009",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 9,
+      "label": "L6.N9"
+    },
+    {
+      "id": "L06.N010",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 10,
+      "label": "L6.N10"
+    },
+    {
+      "id": "L06.N011",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 11,
+      "label": "L6.N11"
+    },
+    {
+      "id": "L06.N012",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 12,
+      "label": "L6.N12"
+    },
+    {
+      "id": "L06.N013",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 13,
+      "label": "L6.N13"
+    },
+    {
+      "id": "L06.N014",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 14,
+      "label": "L6.N14"
+    },
+    {
+      "id": "L06.N015",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 15,
+      "label": "L6.N15"
+    },
+    {
+      "id": "L06.N016",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 16,
+      "label": "L6.N16"
+    },
+    {
+      "id": "L06.N017",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 17,
+      "label": "L6.N17"
+    },
+    {
+      "id": "L06.N018",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 18,
+      "label": "L6.N18"
+    },
+    {
+      "id": "L06.N019",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 19,
+      "label": "L6.N19"
+    },
+    {
+      "id": "L06.N020",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 20,
+      "label": "L6.N20"
+    },
+    {
+      "id": "L06.N021",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 21,
+      "label": "L6.N21"
+    },
+    {
+      "id": "L06.N022",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 22,
+      "label": "L6.N22"
+    },
+    {
+      "id": "L06.N023",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 23,
+      "label": "L6.N23"
+    },
+    {
+      "id": "L06.N024",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 24,
+      "label": "L6.N24"
+    },
+    {
+      "id": "L06.N025",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 25,
+      "label": "L6.N25"
+    },
+    {
+      "id": "L06.N026",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 26,
+      "label": "L6.N26"
+    },
+    {
+      "id": "L06.N027",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 27,
+      "label": "L6.N27"
+    },
+    {
+      "id": "L06.N028",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 28,
+      "label": "L6.N28"
+    },
+    {
+      "id": "L06.N029",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 29,
+      "label": "L6.N29"
+    },
+    {
+      "id": "L06.N030",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 30,
+      "label": "L6.N30"
+    },
+    {
+      "id": "L06.N031",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 31,
+      "label": "L6.N31"
+    },
+    {
+      "id": "L06.N032",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 32,
+      "label": "L6.N32"
+    },
+    {
+      "id": "L06.N033",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 33,
+      "label": "L6.N33"
+    },
+    {
+      "id": "L06.N034",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 34,
+      "label": "L6.N34"
+    },
+    {
+      "id": "L06.N035",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 35,
+      "label": "L6.N35"
+    },
+    {
+      "id": "L06.N036",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 36,
+      "label": "L6.N36"
+    },
+    {
+      "id": "L06.N037",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 37,
+      "label": "L6.N37"
+    },
+    {
+      "id": "L06.N038",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 38,
+      "label": "L6.N38"
+    },
+    {
+      "id": "L06.N039",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 39,
+      "label": "L6.N39"
+    },
+    {
+      "id": "L06.N040",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 40,
+      "label": "L6.N40"
+    },
+    {
+      "id": "L06.N041",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 41,
+      "label": "L6.N41"
+    },
+    {
+      "id": "L06.N042",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 42,
+      "label": "L6.N42"
+    },
+    {
+      "id": "L06.N043",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 43,
+      "label": "L6.N43"
+    },
+    {
+      "id": "L06.N044",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 44,
+      "label": "L6.N44"
+    },
+    {
+      "id": "L06.N045",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 45,
+      "label": "L6.N45"
+    },
+    {
+      "id": "L06.N046",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 46,
+      "label": "L6.N46"
+    },
+    {
+      "id": "L06.N047",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 47,
+      "label": "L6.N47"
+    },
+    {
+      "id": "L06.N048",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 48,
+      "label": "L6.N48"
+    },
+    {
+      "id": "L06.N049",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 49,
+      "label": "L6.N49"
+    },
+    {
+      "id": "L06.N050",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 50,
+      "label": "L6.N50"
+    },
+    {
+      "id": "L06.N051",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 51,
+      "label": "L6.N51"
+    },
+    {
+      "id": "L06.N052",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 52,
+      "label": "L6.N52"
+    },
+    {
+      "id": "L06.N053",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 53,
+      "label": "L6.N53"
+    },
+    {
+      "id": "L06.N054",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 54,
+      "label": "L6.N54"
+    },
+    {
+      "id": "L06.N055",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 55,
+      "label": "L6.N55"
+    },
+    {
+      "id": "L06.N056",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 56,
+      "label": "L6.N56"
+    },
+    {
+      "id": "L06.N057",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 57,
+      "label": "L6.N57"
+    },
+    {
+      "id": "L06.N058",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 58,
+      "label": "L6.N58"
+    },
+    {
+      "id": "L06.N059",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 59,
+      "label": "L6.N59"
+    },
+    {
+      "id": "L06.N060",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 60,
+      "label": "L6.N60"
+    },
+    {
+      "id": "L06.N061",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 61,
+      "label": "L6.N61"
+    },
+    {
+      "id": "L06.N062",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 62,
+      "label": "L6.N62"
+    },
+    {
+      "id": "L06.N063",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 63,
+      "label": "L6.N63"
+    },
+    {
+      "id": "L06.N064",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 64,
+      "label": "L6.N64"
+    },
+    {
+      "id": "L06.N065",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 65,
+      "label": "L6.N65"
+    },
+    {
+      "id": "L06.N066",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 66,
+      "label": "L6.N66"
+    },
+    {
+      "id": "L06.N067",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 67,
+      "label": "L6.N67"
+    },
+    {
+      "id": "L06.N068",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 68,
+      "label": "L6.N68"
+    },
+    {
+      "id": "L06.N069",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 69,
+      "label": "L6.N69"
+    },
+    {
+      "id": "L06.N070",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 70,
+      "label": "L6.N70"
+    },
+    {
+      "id": "L06.N071",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 71,
+      "label": "L6.N71"
+    },
+    {
+      "id": "L06.N072",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 72,
+      "label": "L6.N72"
+    },
+    {
+      "id": "L06.N073",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 73,
+      "label": "L6.N73"
+    },
+    {
+      "id": "L06.N074",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 74,
+      "label": "L6.N74"
+    },
+    {
+      "id": "L06.N075",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 75,
+      "label": "L6.N75"
+    },
+    {
+      "id": "L06.N076",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 76,
+      "label": "L6.N76"
+    },
+    {
+      "id": "L06.N077",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 77,
+      "label": "L6.N77"
+    },
+    {
+      "id": "L06.N078",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 78,
+      "label": "L6.N78"
+    },
+    {
+      "id": "L06.N079",
+      "type": "mlp",
+      "layer": 6,
+      "neuronIdx": 79,
+      "label": "L6.N79"
+    },
+    {
+      "id": "L07.H00",
+      "type": "attn",
+      "layer": 7,
+      "head": 0,
+      "label": "L7.H0"
+    },
+    {
+      "id": "L07.H01",
+      "type": "attn",
+      "layer": 7,
+      "head": 1,
+      "label": "L7.H1"
+    },
+    {
+      "id": "L07.H02",
+      "type": "attn",
+      "layer": 7,
+      "head": 2,
+      "label": "L7.H2"
+    },
+    {
+      "id": "L07.H03",
+      "type": "attn",
+      "layer": 7,
+      "head": 3,
+      "label": "L7.H3"
+    },
+    {
+      "id": "L07.H04",
+      "type": "attn",
+      "layer": 7,
+      "head": 4,
+      "label": "L7.H4"
+    },
+    {
+      "id": "L07.H05",
+      "type": "attn",
+      "layer": 7,
+      "head": 5,
+      "label": "L7.H5"
+    },
+    {
+      "id": "L07.H06",
+      "type": "attn",
+      "layer": 7,
+      "head": 6,
+      "label": "L7.H6"
+    },
+    {
+      "id": "L07.H07",
+      "type": "attn",
+      "layer": 7,
+      "head": 7,
+      "label": "L7.H7"
+    },
+    {
+      "id": "L07.H08",
+      "type": "attn",
+      "layer": 7,
+      "head": 8,
+      "label": "L7.H8"
+    },
+    {
+      "id": "L07.H09",
+      "type": "attn",
+      "layer": 7,
+      "head": 9,
+      "label": "L7.H9"
+    },
+    {
+      "id": "L07.H10",
+      "type": "attn",
+      "layer": 7,
+      "head": 10,
+      "label": "L7.H10"
+    },
+    {
+      "id": "L07.H11",
+      "type": "attn",
+      "layer": 7,
+      "head": 11,
+      "label": "L7.H11"
+    },
+    {
+      "id": "L07.N000",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 0,
+      "label": "L7.N0"
+    },
+    {
+      "id": "L07.N001",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 1,
+      "label": "L7.N1"
+    },
+    {
+      "id": "L07.N002",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 2,
+      "label": "L7.N2"
+    },
+    {
+      "id": "L07.N003",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 3,
+      "label": "L7.N3"
+    },
+    {
+      "id": "L07.N004",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 4,
+      "label": "L7.N4"
+    },
+    {
+      "id": "L07.N005",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 5,
+      "label": "L7.N5"
+    },
+    {
+      "id": "L07.N006",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 6,
+      "label": "L7.N6"
+    },
+    {
+      "id": "L07.N007",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 7,
+      "label": "L7.N7"
+    },
+    {
+      "id": "L07.N008",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 8,
+      "label": "L7.N8"
+    },
+    {
+      "id": "L07.N009",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 9,
+      "label": "L7.N9"
+    },
+    {
+      "id": "L07.N010",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 10,
+      "label": "L7.N10"
+    },
+    {
+      "id": "L07.N011",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 11,
+      "label": "L7.N11"
+    },
+    {
+      "id": "L07.N012",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 12,
+      "label": "L7.N12"
+    },
+    {
+      "id": "L07.N013",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 13,
+      "label": "L7.N13"
+    },
+    {
+      "id": "L07.N014",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 14,
+      "label": "L7.N14"
+    },
+    {
+      "id": "L07.N015",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 15,
+      "label": "L7.N15"
+    },
+    {
+      "id": "L07.N016",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 16,
+      "label": "L7.N16"
+    },
+    {
+      "id": "L07.N017",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 17,
+      "label": "L7.N17"
+    },
+    {
+      "id": "L07.N018",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 18,
+      "label": "L7.N18"
+    },
+    {
+      "id": "L07.N019",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 19,
+      "label": "L7.N19"
+    },
+    {
+      "id": "L07.N020",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 20,
+      "label": "L7.N20"
+    },
+    {
+      "id": "L07.N021",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 21,
+      "label": "L7.N21"
+    },
+    {
+      "id": "L07.N022",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 22,
+      "label": "L7.N22"
+    },
+    {
+      "id": "L07.N023",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 23,
+      "label": "L7.N23"
+    },
+    {
+      "id": "L07.N024",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 24,
+      "label": "L7.N24"
+    },
+    {
+      "id": "L07.N025",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 25,
+      "label": "L7.N25"
+    },
+    {
+      "id": "L07.N026",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 26,
+      "label": "L7.N26"
+    },
+    {
+      "id": "L07.N027",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 27,
+      "label": "L7.N27"
+    },
+    {
+      "id": "L07.N028",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 28,
+      "label": "L7.N28"
+    },
+    {
+      "id": "L07.N029",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 29,
+      "label": "L7.N29"
+    },
+    {
+      "id": "L07.N030",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 30,
+      "label": "L7.N30"
+    },
+    {
+      "id": "L07.N031",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 31,
+      "label": "L7.N31"
+    },
+    {
+      "id": "L07.N032",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 32,
+      "label": "L7.N32"
+    },
+    {
+      "id": "L07.N033",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 33,
+      "label": "L7.N33"
+    },
+    {
+      "id": "L07.N034",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 34,
+      "label": "L7.N34"
+    },
+    {
+      "id": "L07.N035",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 35,
+      "label": "L7.N35"
+    },
+    {
+      "id": "L07.N036",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 36,
+      "label": "L7.N36"
+    },
+    {
+      "id": "L07.N037",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 37,
+      "label": "L7.N37"
+    },
+    {
+      "id": "L07.N038",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 38,
+      "label": "L7.N38"
+    },
+    {
+      "id": "L07.N039",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 39,
+      "label": "L7.N39"
+    },
+    {
+      "id": "L07.N040",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 40,
+      "label": "L7.N40"
+    },
+    {
+      "id": "L07.N041",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 41,
+      "label": "L7.N41"
+    },
+    {
+      "id": "L07.N042",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 42,
+      "label": "L7.N42"
+    },
+    {
+      "id": "L07.N043",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 43,
+      "label": "L7.N43"
+    },
+    {
+      "id": "L07.N044",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 44,
+      "label": "L7.N44"
+    },
+    {
+      "id": "L07.N045",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 45,
+      "label": "L7.N45"
+    },
+    {
+      "id": "L07.N046",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 46,
+      "label": "L7.N46"
+    },
+    {
+      "id": "L07.N047",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 47,
+      "label": "L7.N47"
+    },
+    {
+      "id": "L07.N048",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 48,
+      "label": "L7.N48"
+    },
+    {
+      "id": "L07.N049",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 49,
+      "label": "L7.N49"
+    },
+    {
+      "id": "L07.N050",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 50,
+      "label": "L7.N50"
+    },
+    {
+      "id": "L07.N051",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 51,
+      "label": "L7.N51"
+    },
+    {
+      "id": "L07.N052",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 52,
+      "label": "L7.N52"
+    },
+    {
+      "id": "L07.N053",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 53,
+      "label": "L7.N53"
+    },
+    {
+      "id": "L07.N054",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 54,
+      "label": "L7.N54"
+    },
+    {
+      "id": "L07.N055",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 55,
+      "label": "L7.N55"
+    },
+    {
+      "id": "L07.N056",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 56,
+      "label": "L7.N56"
+    },
+    {
+      "id": "L07.N057",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 57,
+      "label": "L7.N57"
+    },
+    {
+      "id": "L07.N058",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 58,
+      "label": "L7.N58"
+    },
+    {
+      "id": "L07.N059",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 59,
+      "label": "L7.N59"
+    },
+    {
+      "id": "L07.N060",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 60,
+      "label": "L7.N60"
+    },
+    {
+      "id": "L07.N061",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 61,
+      "label": "L7.N61"
+    },
+    {
+      "id": "L07.N062",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 62,
+      "label": "L7.N62"
+    },
+    {
+      "id": "L07.N063",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 63,
+      "label": "L7.N63"
+    },
+    {
+      "id": "L07.N064",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 64,
+      "label": "L7.N64"
+    },
+    {
+      "id": "L07.N065",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 65,
+      "label": "L7.N65"
+    },
+    {
+      "id": "L07.N066",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 66,
+      "label": "L7.N66"
+    },
+    {
+      "id": "L07.N067",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 67,
+      "label": "L7.N67"
+    },
+    {
+      "id": "L07.N068",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 68,
+      "label": "L7.N68"
+    },
+    {
+      "id": "L07.N069",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 69,
+      "label": "L7.N69"
+    },
+    {
+      "id": "L07.N070",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 70,
+      "label": "L7.N70"
+    },
+    {
+      "id": "L07.N071",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 71,
+      "label": "L7.N71"
+    },
+    {
+      "id": "L07.N072",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 72,
+      "label": "L7.N72"
+    },
+    {
+      "id": "L07.N073",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 73,
+      "label": "L7.N73"
+    },
+    {
+      "id": "L07.N074",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 74,
+      "label": "L7.N74"
+    },
+    {
+      "id": "L07.N075",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 75,
+      "label": "L7.N75"
+    },
+    {
+      "id": "L07.N076",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 76,
+      "label": "L7.N76"
+    },
+    {
+      "id": "L07.N077",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 77,
+      "label": "L7.N77"
+    },
+    {
+      "id": "L07.N078",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 78,
+      "label": "L7.N78"
+    },
+    {
+      "id": "L07.N079",
+      "type": "mlp",
+      "layer": 7,
+      "neuronIdx": 79,
+      "label": "L7.N79"
+    },
+    {
+      "id": "L08.H00",
+      "type": "attn",
+      "layer": 8,
+      "head": 0,
+      "label": "L8.H0"
+    },
+    {
+      "id": "L08.H01",
+      "type": "attn",
+      "layer": 8,
+      "head": 1,
+      "label": "L8.H1"
+    },
+    {
+      "id": "L08.H02",
+      "type": "attn",
+      "layer": 8,
+      "head": 2,
+      "label": "L8.H2"
+    },
+    {
+      "id": "L08.H03",
+      "type": "attn",
+      "layer": 8,
+      "head": 3,
+      "label": "L8.H3"
+    },
+    {
+      "id": "L08.H04",
+      "type": "attn",
+      "layer": 8,
+      "head": 4,
+      "label": "L8.H4"
+    },
+    {
+      "id": "L08.H05",
+      "type": "attn",
+      "layer": 8,
+      "head": 5,
+      "label": "L8.H5"
+    },
+    {
+      "id": "L08.H06",
+      "type": "attn",
+      "layer": 8,
+      "head": 6,
+      "label": "L8.H6"
+    },
+    {
+      "id": "L08.H07",
+      "type": "attn",
+      "layer": 8,
+      "head": 7,
+      "label": "L8.H7"
+    },
+    {
+      "id": "L08.H08",
+      "type": "attn",
+      "layer": 8,
+      "head": 8,
+      "label": "L8.H8"
+    },
+    {
+      "id": "L08.H09",
+      "type": "attn",
+      "layer": 8,
+      "head": 9,
+      "label": "L8.H9"
+    },
+    {
+      "id": "L08.H10",
+      "type": "attn",
+      "layer": 8,
+      "head": 10,
+      "label": "L8.H10"
+    },
+    {
+      "id": "L08.H11",
+      "type": "attn",
+      "layer": 8,
+      "head": 11,
+      "label": "L8.H11"
+    },
+    {
+      "id": "L08.N000",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 0,
+      "label": "L8.N0"
+    },
+    {
+      "id": "L08.N001",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 1,
+      "label": "L8.N1"
+    },
+    {
+      "id": "L08.N002",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 2,
+      "label": "L8.N2"
+    },
+    {
+      "id": "L08.N003",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 3,
+      "label": "L8.N3"
+    },
+    {
+      "id": "L08.N004",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 4,
+      "label": "L8.N4"
+    },
+    {
+      "id": "L08.N005",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 5,
+      "label": "L8.N5"
+    },
+    {
+      "id": "L08.N006",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 6,
+      "label": "L8.N6"
+    },
+    {
+      "id": "L08.N007",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 7,
+      "label": "L8.N7"
+    },
+    {
+      "id": "L08.N008",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 8,
+      "label": "L8.N8"
+    },
+    {
+      "id": "L08.N009",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 9,
+      "label": "L8.N9"
+    },
+    {
+      "id": "L08.N010",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 10,
+      "label": "L8.N10"
+    },
+    {
+      "id": "L08.N011",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 11,
+      "label": "L8.N11"
+    },
+    {
+      "id": "L08.N012",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 12,
+      "label": "L8.N12"
+    },
+    {
+      "id": "L08.N013",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 13,
+      "label": "L8.N13"
+    },
+    {
+      "id": "L08.N014",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 14,
+      "label": "L8.N14"
+    },
+    {
+      "id": "L08.N015",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 15,
+      "label": "L8.N15"
+    },
+    {
+      "id": "L08.N016",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 16,
+      "label": "L8.N16"
+    },
+    {
+      "id": "L08.N017",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 17,
+      "label": "L8.N17"
+    },
+    {
+      "id": "L08.N018",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 18,
+      "label": "L8.N18"
+    },
+    {
+      "id": "L08.N019",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 19,
+      "label": "L8.N19"
+    },
+    {
+      "id": "L08.N020",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 20,
+      "label": "L8.N20"
+    },
+    {
+      "id": "L08.N021",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 21,
+      "label": "L8.N21"
+    },
+    {
+      "id": "L08.N022",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 22,
+      "label": "L8.N22"
+    },
+    {
+      "id": "L08.N023",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 23,
+      "label": "L8.N23"
+    },
+    {
+      "id": "L08.N024",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 24,
+      "label": "L8.N24"
+    },
+    {
+      "id": "L08.N025",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 25,
+      "label": "L8.N25"
+    },
+    {
+      "id": "L08.N026",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 26,
+      "label": "L8.N26"
+    },
+    {
+      "id": "L08.N027",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 27,
+      "label": "L8.N27"
+    },
+    {
+      "id": "L08.N028",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 28,
+      "label": "L8.N28"
+    },
+    {
+      "id": "L08.N029",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 29,
+      "label": "L8.N29"
+    },
+    {
+      "id": "L08.N030",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 30,
+      "label": "L8.N30"
+    },
+    {
+      "id": "L08.N031",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 31,
+      "label": "L8.N31"
+    },
+    {
+      "id": "L08.N032",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 32,
+      "label": "L8.N32"
+    },
+    {
+      "id": "L08.N033",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 33,
+      "label": "L8.N33"
+    },
+    {
+      "id": "L08.N034",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 34,
+      "label": "L8.N34"
+    },
+    {
+      "id": "L08.N035",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 35,
+      "label": "L8.N35"
+    },
+    {
+      "id": "L08.N036",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 36,
+      "label": "L8.N36"
+    },
+    {
+      "id": "L08.N037",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 37,
+      "label": "L8.N37"
+    },
+    {
+      "id": "L08.N038",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 38,
+      "label": "L8.N38"
+    },
+    {
+      "id": "L08.N039",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 39,
+      "label": "L8.N39"
+    },
+    {
+      "id": "L08.N040",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 40,
+      "label": "L8.N40"
+    },
+    {
+      "id": "L08.N041",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 41,
+      "label": "L8.N41"
+    },
+    {
+      "id": "L08.N042",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 42,
+      "label": "L8.N42"
+    },
+    {
+      "id": "L08.N043",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 43,
+      "label": "L8.N43"
+    },
+    {
+      "id": "L08.N044",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 44,
+      "label": "L8.N44"
+    },
+    {
+      "id": "L08.N045",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 45,
+      "label": "L8.N45"
+    },
+    {
+      "id": "L08.N046",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 46,
+      "label": "L8.N46"
+    },
+    {
+      "id": "L08.N047",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 47,
+      "label": "L8.N47"
+    },
+    {
+      "id": "L08.N048",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 48,
+      "label": "L8.N48"
+    },
+    {
+      "id": "L08.N049",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 49,
+      "label": "L8.N49"
+    },
+    {
+      "id": "L08.N050",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 50,
+      "label": "L8.N50"
+    },
+    {
+      "id": "L08.N051",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 51,
+      "label": "L8.N51"
+    },
+    {
+      "id": "L08.N052",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 52,
+      "label": "L8.N52"
+    },
+    {
+      "id": "L08.N053",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 53,
+      "label": "L8.N53"
+    },
+    {
+      "id": "L08.N054",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 54,
+      "label": "L8.N54"
+    },
+    {
+      "id": "L08.N055",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 55,
+      "label": "L8.N55"
+    },
+    {
+      "id": "L08.N056",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 56,
+      "label": "L8.N56"
+    },
+    {
+      "id": "L08.N057",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 57,
+      "label": "L8.N57"
+    },
+    {
+      "id": "L08.N058",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 58,
+      "label": "L8.N58"
+    },
+    {
+      "id": "L08.N059",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 59,
+      "label": "L8.N59"
+    },
+    {
+      "id": "L08.N060",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 60,
+      "label": "L8.N60"
+    },
+    {
+      "id": "L08.N061",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 61,
+      "label": "L8.N61"
+    },
+    {
+      "id": "L08.N062",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 62,
+      "label": "L8.N62"
+    },
+    {
+      "id": "L08.N063",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 63,
+      "label": "L8.N63"
+    },
+    {
+      "id": "L08.N064",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 64,
+      "label": "L8.N64"
+    },
+    {
+      "id": "L08.N065",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 65,
+      "label": "L8.N65"
+    },
+    {
+      "id": "L08.N066",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 66,
+      "label": "L8.N66"
+    },
+    {
+      "id": "L08.N067",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 67,
+      "label": "L8.N67"
+    },
+    {
+      "id": "L08.N068",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 68,
+      "label": "L8.N68"
+    },
+    {
+      "id": "L08.N069",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 69,
+      "label": "L8.N69"
+    },
+    {
+      "id": "L08.N070",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 70,
+      "label": "L8.N70"
+    },
+    {
+      "id": "L08.N071",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 71,
+      "label": "L8.N71"
+    },
+    {
+      "id": "L08.N072",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 72,
+      "label": "L8.N72"
+    },
+    {
+      "id": "L08.N073",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 73,
+      "label": "L8.N73"
+    },
+    {
+      "id": "L08.N074",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 74,
+      "label": "L8.N74"
+    },
+    {
+      "id": "L08.N075",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 75,
+      "label": "L8.N75"
+    },
+    {
+      "id": "L08.N076",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 76,
+      "label": "L8.N76"
+    },
+    {
+      "id": "L08.N077",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 77,
+      "label": "L8.N77"
+    },
+    {
+      "id": "L08.N078",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 78,
+      "label": "L8.N78"
+    },
+    {
+      "id": "L08.N079",
+      "type": "mlp",
+      "layer": 8,
+      "neuronIdx": 79,
+      "label": "L8.N79"
+    },
+    {
+      "id": "L09.H00",
+      "type": "attn",
+      "layer": 9,
+      "head": 0,
+      "label": "L9.H0"
+    },
+    {
+      "id": "L09.H01",
+      "type": "attn",
+      "layer": 9,
+      "head": 1,
+      "label": "L9.H1"
+    },
+    {
+      "id": "L09.H02",
+      "type": "attn",
+      "layer": 9,
+      "head": 2,
+      "label": "L9.H2"
+    },
+    {
+      "id": "L09.H03",
+      "type": "attn",
+      "layer": 9,
+      "head": 3,
+      "label": "L9.H3"
+    },
+    {
+      "id": "L09.H04",
+      "type": "attn",
+      "layer": 9,
+      "head": 4,
+      "label": "L9.H4"
+    },
+    {
+      "id": "L09.H05",
+      "type": "attn",
+      "layer": 9,
+      "head": 5,
+      "label": "L9.H5"
+    },
+    {
+      "id": "L09.H06",
+      "type": "attn",
+      "layer": 9,
+      "head": 6,
+      "label": "L9.H6"
+    },
+    {
+      "id": "L09.H07",
+      "type": "attn",
+      "layer": 9,
+      "head": 7,
+      "label": "L9.H7"
+    },
+    {
+      "id": "L09.H08",
+      "type": "attn",
+      "layer": 9,
+      "head": 8,
+      "label": "L9.H8"
+    },
+    {
+      "id": "L09.H09",
+      "type": "attn",
+      "layer": 9,
+      "head": 9,
+      "label": "L9.H9"
+    },
+    {
+      "id": "L09.H10",
+      "type": "attn",
+      "layer": 9,
+      "head": 10,
+      "label": "L9.H10"
+    },
+    {
+      "id": "L09.H11",
+      "type": "attn",
+      "layer": 9,
+      "head": 11,
+      "label": "L9.H11"
+    },
+    {
+      "id": "L09.N000",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 0,
+      "label": "L9.N0"
+    },
+    {
+      "id": "L09.N001",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 1,
+      "label": "L9.N1"
+    },
+    {
+      "id": "L09.N002",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 2,
+      "label": "L9.N2"
+    },
+    {
+      "id": "L09.N003",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 3,
+      "label": "L9.N3"
+    },
+    {
+      "id": "L09.N004",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 4,
+      "label": "L9.N4"
+    },
+    {
+      "id": "L09.N005",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 5,
+      "label": "L9.N5"
+    },
+    {
+      "id": "L09.N006",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 6,
+      "label": "L9.N6"
+    },
+    {
+      "id": "L09.N007",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 7,
+      "label": "L9.N7"
+    },
+    {
+      "id": "L09.N008",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 8,
+      "label": "L9.N8"
+    },
+    {
+      "id": "L09.N009",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 9,
+      "label": "L9.N9"
+    },
+    {
+      "id": "L09.N010",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 10,
+      "label": "L9.N10"
+    },
+    {
+      "id": "L09.N011",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 11,
+      "label": "L9.N11"
+    },
+    {
+      "id": "L09.N012",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 12,
+      "label": "L9.N12"
+    },
+    {
+      "id": "L09.N013",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 13,
+      "label": "L9.N13"
+    },
+    {
+      "id": "L09.N014",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 14,
+      "label": "L9.N14"
+    },
+    {
+      "id": "L09.N015",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 15,
+      "label": "L9.N15"
+    },
+    {
+      "id": "L09.N016",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 16,
+      "label": "L9.N16"
+    },
+    {
+      "id": "L09.N017",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 17,
+      "label": "L9.N17"
+    },
+    {
+      "id": "L09.N018",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 18,
+      "label": "L9.N18"
+    },
+    {
+      "id": "L09.N019",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 19,
+      "label": "L9.N19"
+    },
+    {
+      "id": "L09.N020",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 20,
+      "label": "L9.N20"
+    },
+    {
+      "id": "L09.N021",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 21,
+      "label": "L9.N21"
+    },
+    {
+      "id": "L09.N022",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 22,
+      "label": "L9.N22"
+    },
+    {
+      "id": "L09.N023",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 23,
+      "label": "L9.N23"
+    },
+    {
+      "id": "L09.N024",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 24,
+      "label": "L9.N24"
+    },
+    {
+      "id": "L09.N025",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 25,
+      "label": "L9.N25"
+    },
+    {
+      "id": "L09.N026",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 26,
+      "label": "L9.N26"
+    },
+    {
+      "id": "L09.N027",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 27,
+      "label": "L9.N27"
+    },
+    {
+      "id": "L09.N028",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 28,
+      "label": "L9.N28"
+    },
+    {
+      "id": "L09.N029",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 29,
+      "label": "L9.N29"
+    },
+    {
+      "id": "L09.N030",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 30,
+      "label": "L9.N30"
+    },
+    {
+      "id": "L09.N031",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 31,
+      "label": "L9.N31"
+    },
+    {
+      "id": "L09.N032",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 32,
+      "label": "L9.N32"
+    },
+    {
+      "id": "L09.N033",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 33,
+      "label": "L9.N33"
+    },
+    {
+      "id": "L09.N034",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 34,
+      "label": "L9.N34"
+    },
+    {
+      "id": "L09.N035",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 35,
+      "label": "L9.N35"
+    },
+    {
+      "id": "L09.N036",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 36,
+      "label": "L9.N36"
+    },
+    {
+      "id": "L09.N037",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 37,
+      "label": "L9.N37"
+    },
+    {
+      "id": "L09.N038",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 38,
+      "label": "L9.N38"
+    },
+    {
+      "id": "L09.N039",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 39,
+      "label": "L9.N39"
+    },
+    {
+      "id": "L09.N040",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 40,
+      "label": "L9.N40"
+    },
+    {
+      "id": "L09.N041",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 41,
+      "label": "L9.N41"
+    },
+    {
+      "id": "L09.N042",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 42,
+      "label": "L9.N42"
+    },
+    {
+      "id": "L09.N043",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 43,
+      "label": "L9.N43"
+    },
+    {
+      "id": "L09.N044",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 44,
+      "label": "L9.N44"
+    },
+    {
+      "id": "L09.N045",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 45,
+      "label": "L9.N45"
+    },
+    {
+      "id": "L09.N046",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 46,
+      "label": "L9.N46"
+    },
+    {
+      "id": "L09.N047",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 47,
+      "label": "L9.N47"
+    },
+    {
+      "id": "L09.N048",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 48,
+      "label": "L9.N48"
+    },
+    {
+      "id": "L09.N049",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 49,
+      "label": "L9.N49"
+    },
+    {
+      "id": "L09.N050",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 50,
+      "label": "L9.N50"
+    },
+    {
+      "id": "L09.N051",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 51,
+      "label": "L9.N51"
+    },
+    {
+      "id": "L09.N052",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 52,
+      "label": "L9.N52"
+    },
+    {
+      "id": "L09.N053",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 53,
+      "label": "L9.N53"
+    },
+    {
+      "id": "L09.N054",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 54,
+      "label": "L9.N54"
+    },
+    {
+      "id": "L09.N055",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 55,
+      "label": "L9.N55"
+    },
+    {
+      "id": "L09.N056",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 56,
+      "label": "L9.N56"
+    },
+    {
+      "id": "L09.N057",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 57,
+      "label": "L9.N57"
+    },
+    {
+      "id": "L09.N058",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 58,
+      "label": "L9.N58"
+    },
+    {
+      "id": "L09.N059",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 59,
+      "label": "L9.N59"
+    },
+    {
+      "id": "L09.N060",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 60,
+      "label": "L9.N60"
+    },
+    {
+      "id": "L09.N061",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 61,
+      "label": "L9.N61"
+    },
+    {
+      "id": "L09.N062",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 62,
+      "label": "L9.N62"
+    },
+    {
+      "id": "L09.N063",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 63,
+      "label": "L9.N63"
+    },
+    {
+      "id": "L09.N064",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 64,
+      "label": "L9.N64"
+    },
+    {
+      "id": "L09.N065",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 65,
+      "label": "L9.N65"
+    },
+    {
+      "id": "L09.N066",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 66,
+      "label": "L9.N66"
+    },
+    {
+      "id": "L09.N067",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 67,
+      "label": "L9.N67"
+    },
+    {
+      "id": "L09.N068",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 68,
+      "label": "L9.N68"
+    },
+    {
+      "id": "L09.N069",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 69,
+      "label": "L9.N69"
+    },
+    {
+      "id": "L09.N070",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 70,
+      "label": "L9.N70"
+    },
+    {
+      "id": "L09.N071",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 71,
+      "label": "L9.N71"
+    },
+    {
+      "id": "L09.N072",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 72,
+      "label": "L9.N72"
+    },
+    {
+      "id": "L09.N073",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 73,
+      "label": "L9.N73"
+    },
+    {
+      "id": "L09.N074",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 74,
+      "label": "L9.N74"
+    },
+    {
+      "id": "L09.N075",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 75,
+      "label": "L9.N75"
+    },
+    {
+      "id": "L09.N076",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 76,
+      "label": "L9.N76"
+    },
+    {
+      "id": "L09.N077",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 77,
+      "label": "L9.N77"
+    },
+    {
+      "id": "L09.N078",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 78,
+      "label": "L9.N78"
+    },
+    {
+      "id": "L09.N079",
+      "type": "mlp",
+      "layer": 9,
+      "neuronIdx": 79,
+      "label": "L9.N79"
+    },
+    {
+      "id": "L10.H00",
+      "type": "attn",
+      "layer": 10,
+      "head": 0,
+      "label": "L10.H0"
+    },
+    {
+      "id": "L10.H01",
+      "type": "attn",
+      "layer": 10,
+      "head": 1,
+      "label": "L10.H1"
+    },
+    {
+      "id": "L10.H02",
+      "type": "attn",
+      "layer": 10,
+      "head": 2,
+      "label": "L10.H2"
+    },
+    {
+      "id": "L10.H03",
+      "type": "attn",
+      "layer": 10,
+      "head": 3,
+      "label": "L10.H3"
+    },
+    {
+      "id": "L10.H04",
+      "type": "attn",
+      "layer": 10,
+      "head": 4,
+      "label": "L10.H4"
+    },
+    {
+      "id": "L10.H05",
+      "type": "attn",
+      "layer": 10,
+      "head": 5,
+      "label": "L10.H5"
+    },
+    {
+      "id": "L10.H06",
+      "type": "attn",
+      "layer": 10,
+      "head": 6,
+      "label": "L10.H6"
+    },
+    {
+      "id": "L10.H07",
+      "type": "attn",
+      "layer": 10,
+      "head": 7,
+      "label": "L10.H7"
+    },
+    {
+      "id": "L10.H08",
+      "type": "attn",
+      "layer": 10,
+      "head": 8,
+      "label": "L10.H8"
+    },
+    {
+      "id": "L10.H09",
+      "type": "attn",
+      "layer": 10,
+      "head": 9,
+      "label": "L10.H9"
+    },
+    {
+      "id": "L10.H10",
+      "type": "attn",
+      "layer": 10,
+      "head": 10,
+      "label": "L10.H10"
+    },
+    {
+      "id": "L10.H11",
+      "type": "attn",
+      "layer": 10,
+      "head": 11,
+      "label": "L10.H11"
+    },
+    {
+      "id": "L10.N000",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 0,
+      "label": "L10.N0"
+    },
+    {
+      "id": "L10.N001",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 1,
+      "label": "L10.N1"
+    },
+    {
+      "id": "L10.N002",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 2,
+      "label": "L10.N2"
+    },
+    {
+      "id": "L10.N003",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 3,
+      "label": "L10.N3"
+    },
+    {
+      "id": "L10.N004",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 4,
+      "label": "L10.N4"
+    },
+    {
+      "id": "L10.N005",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 5,
+      "label": "L10.N5"
+    },
+    {
+      "id": "L10.N006",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 6,
+      "label": "L10.N6"
+    },
+    {
+      "id": "L10.N007",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 7,
+      "label": "L10.N7"
+    },
+    {
+      "id": "L10.N008",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 8,
+      "label": "L10.N8"
+    },
+    {
+      "id": "L10.N009",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 9,
+      "label": "L10.N9"
+    },
+    {
+      "id": "L10.N010",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 10,
+      "label": "L10.N10"
+    },
+    {
+      "id": "L10.N011",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 11,
+      "label": "L10.N11"
+    },
+    {
+      "id": "L10.N012",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 12,
+      "label": "L10.N12"
+    },
+    {
+      "id": "L10.N013",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 13,
+      "label": "L10.N13"
+    },
+    {
+      "id": "L10.N014",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 14,
+      "label": "L10.N14"
+    },
+    {
+      "id": "L10.N015",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 15,
+      "label": "L10.N15"
+    },
+    {
+      "id": "L10.N016",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 16,
+      "label": "L10.N16"
+    },
+    {
+      "id": "L10.N017",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 17,
+      "label": "L10.N17"
+    },
+    {
+      "id": "L10.N018",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 18,
+      "label": "L10.N18"
+    },
+    {
+      "id": "L10.N019",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 19,
+      "label": "L10.N19"
+    },
+    {
+      "id": "L10.N020",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 20,
+      "label": "L10.N20"
+    },
+    {
+      "id": "L10.N021",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 21,
+      "label": "L10.N21"
+    },
+    {
+      "id": "L10.N022",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 22,
+      "label": "L10.N22"
+    },
+    {
+      "id": "L10.N023",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 23,
+      "label": "L10.N23"
+    },
+    {
+      "id": "L10.N024",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 24,
+      "label": "L10.N24"
+    },
+    {
+      "id": "L10.N025",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 25,
+      "label": "L10.N25"
+    },
+    {
+      "id": "L10.N026",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 26,
+      "label": "L10.N26"
+    },
+    {
+      "id": "L10.N027",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 27,
+      "label": "L10.N27"
+    },
+    {
+      "id": "L10.N028",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 28,
+      "label": "L10.N28"
+    },
+    {
+      "id": "L10.N029",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 29,
+      "label": "L10.N29"
+    },
+    {
+      "id": "L10.N030",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 30,
+      "label": "L10.N30"
+    },
+    {
+      "id": "L10.N031",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 31,
+      "label": "L10.N31"
+    },
+    {
+      "id": "L10.N032",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 32,
+      "label": "L10.N32"
+    },
+    {
+      "id": "L10.N033",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 33,
+      "label": "L10.N33"
+    },
+    {
+      "id": "L10.N034",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 34,
+      "label": "L10.N34"
+    },
+    {
+      "id": "L10.N035",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 35,
+      "label": "L10.N35"
+    },
+    {
+      "id": "L10.N036",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 36,
+      "label": "L10.N36"
+    },
+    {
+      "id": "L10.N037",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 37,
+      "label": "L10.N37"
+    },
+    {
+      "id": "L10.N038",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 38,
+      "label": "L10.N38"
+    },
+    {
+      "id": "L10.N039",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 39,
+      "label": "L10.N39"
+    },
+    {
+      "id": "L10.N040",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 40,
+      "label": "L10.N40"
+    },
+    {
+      "id": "L10.N041",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 41,
+      "label": "L10.N41"
+    },
+    {
+      "id": "L10.N042",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 42,
+      "label": "L10.N42"
+    },
+    {
+      "id": "L10.N043",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 43,
+      "label": "L10.N43"
+    },
+    {
+      "id": "L10.N044",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 44,
+      "label": "L10.N44"
+    },
+    {
+      "id": "L10.N045",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 45,
+      "label": "L10.N45"
+    },
+    {
+      "id": "L10.N046",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 46,
+      "label": "L10.N46"
+    },
+    {
+      "id": "L10.N047",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 47,
+      "label": "L10.N47"
+    },
+    {
+      "id": "L10.N048",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 48,
+      "label": "L10.N48"
+    },
+    {
+      "id": "L10.N049",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 49,
+      "label": "L10.N49"
+    },
+    {
+      "id": "L10.N050",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 50,
+      "label": "L10.N50"
+    },
+    {
+      "id": "L10.N051",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 51,
+      "label": "L10.N51"
+    },
+    {
+      "id": "L10.N052",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 52,
+      "label": "L10.N52"
+    },
+    {
+      "id": "L10.N053",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 53,
+      "label": "L10.N53"
+    },
+    {
+      "id": "L10.N054",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 54,
+      "label": "L10.N54"
+    },
+    {
+      "id": "L10.N055",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 55,
+      "label": "L10.N55"
+    },
+    {
+      "id": "L10.N056",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 56,
+      "label": "L10.N56"
+    },
+    {
+      "id": "L10.N057",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 57,
+      "label": "L10.N57"
+    },
+    {
+      "id": "L10.N058",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 58,
+      "label": "L10.N58"
+    },
+    {
+      "id": "L10.N059",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 59,
+      "label": "L10.N59"
+    },
+    {
+      "id": "L10.N060",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 60,
+      "label": "L10.N60"
+    },
+    {
+      "id": "L10.N061",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 61,
+      "label": "L10.N61"
+    },
+    {
+      "id": "L10.N062",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 62,
+      "label": "L10.N62"
+    },
+    {
+      "id": "L10.N063",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 63,
+      "label": "L10.N63"
+    },
+    {
+      "id": "L10.N064",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 64,
+      "label": "L10.N64"
+    },
+    {
+      "id": "L10.N065",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 65,
+      "label": "L10.N65"
+    },
+    {
+      "id": "L10.N066",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 66,
+      "label": "L10.N66"
+    },
+    {
+      "id": "L10.N067",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 67,
+      "label": "L10.N67"
+    },
+    {
+      "id": "L10.N068",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 68,
+      "label": "L10.N68"
+    },
+    {
+      "id": "L10.N069",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 69,
+      "label": "L10.N69"
+    },
+    {
+      "id": "L10.N070",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 70,
+      "label": "L10.N70"
+    },
+    {
+      "id": "L10.N071",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 71,
+      "label": "L10.N71"
+    },
+    {
+      "id": "L10.N072",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 72,
+      "label": "L10.N72"
+    },
+    {
+      "id": "L10.N073",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 73,
+      "label": "L10.N73"
+    },
+    {
+      "id": "L10.N074",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 74,
+      "label": "L10.N74"
+    },
+    {
+      "id": "L10.N075",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 75,
+      "label": "L10.N75"
+    },
+    {
+      "id": "L10.N076",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 76,
+      "label": "L10.N76"
+    },
+    {
+      "id": "L10.N077",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 77,
+      "label": "L10.N77"
+    },
+    {
+      "id": "L10.N078",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 78,
+      "label": "L10.N78"
+    },
+    {
+      "id": "L10.N079",
+      "type": "mlp",
+      "layer": 10,
+      "neuronIdx": 79,
+      "label": "L10.N79"
+    },
+    {
+      "id": "L11.H00",
+      "type": "attn",
+      "layer": 11,
+      "head": 0,
+      "label": "L11.H0"
+    },
+    {
+      "id": "L11.H01",
+      "type": "attn",
+      "layer": 11,
+      "head": 1,
+      "label": "L11.H1"
+    },
+    {
+      "id": "L11.H02",
+      "type": "attn",
+      "layer": 11,
+      "head": 2,
+      "label": "L11.H2"
+    },
+    {
+      "id": "L11.H03",
+      "type": "attn",
+      "layer": 11,
+      "head": 3,
+      "label": "L11.H3"
+    },
+    {
+      "id": "L11.H04",
+      "type": "attn",
+      "layer": 11,
+      "head": 4,
+      "label": "L11.H4"
+    },
+    {
+      "id": "L11.H05",
+      "type": "attn",
+      "layer": 11,
+      "head": 5,
+      "label": "L11.H5"
+    },
+    {
+      "id": "L11.H06",
+      "type": "attn",
+      "layer": 11,
+      "head": 6,
+      "label": "L11.H6"
+    },
+    {
+      "id": "L11.H07",
+      "type": "attn",
+      "layer": 11,
+      "head": 7,
+      "label": "L11.H7"
+    },
+    {
+      "id": "L11.H08",
+      "type": "attn",
+      "layer": 11,
+      "head": 8,
+      "label": "L11.H8"
+    },
+    {
+      "id": "L11.H09",
+      "type": "attn",
+      "layer": 11,
+      "head": 9,
+      "label": "L11.H9"
+    },
+    {
+      "id": "L11.H10",
+      "type": "attn",
+      "layer": 11,
+      "head": 10,
+      "label": "L11.H10"
+    },
+    {
+      "id": "L11.H11",
+      "type": "attn",
+      "layer": 11,
+      "head": 11,
+      "label": "L11.H11"
+    },
+    {
+      "id": "L11.N000",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 0,
+      "label": "L11.N0"
+    },
+    {
+      "id": "L11.N001",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 1,
+      "label": "L11.N1"
+    },
+    {
+      "id": "L11.N002",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 2,
+      "label": "L11.N2"
+    },
+    {
+      "id": "L11.N003",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 3,
+      "label": "L11.N3"
+    },
+    {
+      "id": "L11.N004",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 4,
+      "label": "L11.N4"
+    },
+    {
+      "id": "L11.N005",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 5,
+      "label": "L11.N5"
+    },
+    {
+      "id": "L11.N006",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 6,
+      "label": "L11.N6"
+    },
+    {
+      "id": "L11.N007",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 7,
+      "label": "L11.N7"
+    },
+    {
+      "id": "L11.N008",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 8,
+      "label": "L11.N8"
+    },
+    {
+      "id": "L11.N009",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 9,
+      "label": "L11.N9"
+    },
+    {
+      "id": "L11.N010",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 10,
+      "label": "L11.N10"
+    },
+    {
+      "id": "L11.N011",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 11,
+      "label": "L11.N11"
+    },
+    {
+      "id": "L11.N012",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 12,
+      "label": "L11.N12"
+    },
+    {
+      "id": "L11.N013",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 13,
+      "label": "L11.N13"
+    },
+    {
+      "id": "L11.N014",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 14,
+      "label": "L11.N14"
+    },
+    {
+      "id": "L11.N015",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 15,
+      "label": "L11.N15"
+    },
+    {
+      "id": "L11.N016",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 16,
+      "label": "L11.N16"
+    },
+    {
+      "id": "L11.N017",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 17,
+      "label": "L11.N17"
+    },
+    {
+      "id": "L11.N018",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 18,
+      "label": "L11.N18"
+    },
+    {
+      "id": "L11.N019",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 19,
+      "label": "L11.N19"
+    },
+    {
+      "id": "L11.N020",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 20,
+      "label": "L11.N20"
+    },
+    {
+      "id": "L11.N021",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 21,
+      "label": "L11.N21"
+    },
+    {
+      "id": "L11.N022",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 22,
+      "label": "L11.N22"
+    },
+    {
+      "id": "L11.N023",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 23,
+      "label": "L11.N23"
+    },
+    {
+      "id": "L11.N024",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 24,
+      "label": "L11.N24"
+    },
+    {
+      "id": "L11.N025",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 25,
+      "label": "L11.N25"
+    },
+    {
+      "id": "L11.N026",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 26,
+      "label": "L11.N26"
+    },
+    {
+      "id": "L11.N027",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 27,
+      "label": "L11.N27"
+    },
+    {
+      "id": "L11.N028",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 28,
+      "label": "L11.N28"
+    },
+    {
+      "id": "L11.N029",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 29,
+      "label": "L11.N29"
+    },
+    {
+      "id": "L11.N030",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 30,
+      "label": "L11.N30"
+    },
+    {
+      "id": "L11.N031",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 31,
+      "label": "L11.N31"
+    },
+    {
+      "id": "L11.N032",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 32,
+      "label": "L11.N32"
+    },
+    {
+      "id": "L11.N033",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 33,
+      "label": "L11.N33"
+    },
+    {
+      "id": "L11.N034",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 34,
+      "label": "L11.N34"
+    },
+    {
+      "id": "L11.N035",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 35,
+      "label": "L11.N35"
+    },
+    {
+      "id": "L11.N036",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 36,
+      "label": "L11.N36"
+    },
+    {
+      "id": "L11.N037",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 37,
+      "label": "L11.N37"
+    },
+    {
+      "id": "L11.N038",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 38,
+      "label": "L11.N38"
+    },
+    {
+      "id": "L11.N039",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 39,
+      "label": "L11.N39"
+    },
+    {
+      "id": "L11.N040",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 40,
+      "label": "L11.N40"
+    },
+    {
+      "id": "L11.N041",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 41,
+      "label": "L11.N41"
+    },
+    {
+      "id": "L11.N042",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 42,
+      "label": "L11.N42"
+    },
+    {
+      "id": "L11.N043",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 43,
+      "label": "L11.N43"
+    },
+    {
+      "id": "L11.N044",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 44,
+      "label": "L11.N44"
+    },
+    {
+      "id": "L11.N045",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 45,
+      "label": "L11.N45"
+    },
+    {
+      "id": "L11.N046",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 46,
+      "label": "L11.N46"
+    },
+    {
+      "id": "L11.N047",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 47,
+      "label": "L11.N47"
+    },
+    {
+      "id": "L11.N048",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 48,
+      "label": "L11.N48"
+    },
+    {
+      "id": "L11.N049",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 49,
+      "label": "L11.N49"
+    },
+    {
+      "id": "L11.N050",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 50,
+      "label": "L11.N50"
+    },
+    {
+      "id": "L11.N051",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 51,
+      "label": "L11.N51"
+    },
+    {
+      "id": "L11.N052",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 52,
+      "label": "L11.N52"
+    },
+    {
+      "id": "L11.N053",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 53,
+      "label": "L11.N53"
+    },
+    {
+      "id": "L11.N054",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 54,
+      "label": "L11.N54"
+    },
+    {
+      "id": "L11.N055",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 55,
+      "label": "L11.N55"
+    },
+    {
+      "id": "L11.N056",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 56,
+      "label": "L11.N56"
+    },
+    {
+      "id": "L11.N057",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 57,
+      "label": "L11.N57"
+    },
+    {
+      "id": "L11.N058",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 58,
+      "label": "L11.N58"
+    },
+    {
+      "id": "L11.N059",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 59,
+      "label": "L11.N59"
+    },
+    {
+      "id": "L11.N060",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 60,
+      "label": "L11.N60"
+    },
+    {
+      "id": "L11.N061",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 61,
+      "label": "L11.N61"
+    },
+    {
+      "id": "L11.N062",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 62,
+      "label": "L11.N62"
+    },
+    {
+      "id": "L11.N063",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 63,
+      "label": "L11.N63"
+    },
+    {
+      "id": "L11.N064",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 64,
+      "label": "L11.N64"
+    },
+    {
+      "id": "L11.N065",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 65,
+      "label": "L11.N65"
+    },
+    {
+      "id": "L11.N066",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 66,
+      "label": "L11.N66"
+    },
+    {
+      "id": "L11.N067",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 67,
+      "label": "L11.N67"
+    },
+    {
+      "id": "L11.N068",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 68,
+      "label": "L11.N68"
+    },
+    {
+      "id": "L11.N069",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 69,
+      "label": "L11.N69"
+    },
+    {
+      "id": "L11.N070",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 70,
+      "label": "L11.N70"
+    },
+    {
+      "id": "L11.N071",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 71,
+      "label": "L11.N71"
+    },
+    {
+      "id": "L11.N072",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 72,
+      "label": "L11.N72"
+    },
+    {
+      "id": "L11.N073",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 73,
+      "label": "L11.N73"
+    },
+    {
+      "id": "L11.N074",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 74,
+      "label": "L11.N74"
+    },
+    {
+      "id": "L11.N075",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 75,
+      "label": "L11.N75"
+    },
+    {
+      "id": "L11.N076",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 76,
+      "label": "L11.N76"
+    },
+    {
+      "id": "L11.N077",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 77,
+      "label": "L11.N77"
+    },
+    {
+      "id": "L11.N078",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 78,
+      "label": "L11.N78"
+    },
+    {
+      "id": "L11.N079",
+      "type": "mlp",
+      "layer": 11,
+      "neuronIdx": 79,
+      "label": "L11.N79"
+    },
+    {
+      "id": "L12.H00",
+      "type": "attn",
+      "layer": 12,
+      "head": 0,
+      "label": "L12.H0"
+    },
+    {
+      "id": "L12.H01",
+      "type": "attn",
+      "layer": 12,
+      "head": 1,
+      "label": "L12.H1"
+    },
+    {
+      "id": "L12.H02",
+      "type": "attn",
+      "layer": 12,
+      "head": 2,
+      "label": "L12.H2"
+    },
+    {
+      "id": "L12.H03",
+      "type": "attn",
+      "layer": 12,
+      "head": 3,
+      "label": "L12.H3"
+    },
+    {
+      "id": "L12.H04",
+      "type": "attn",
+      "layer": 12,
+      "head": 4,
+      "label": "L12.H4"
+    },
+    {
+      "id": "L12.H05",
+      "type": "attn",
+      "layer": 12,
+      "head": 5,
+      "label": "L12.H5"
+    },
+    {
+      "id": "L12.H06",
+      "type": "attn",
+      "layer": 12,
+      "head": 6,
+      "label": "L12.H6"
+    },
+    {
+      "id": "L12.H07",
+      "type": "attn",
+      "layer": 12,
+      "head": 7,
+      "label": "L12.H7"
+    },
+    {
+      "id": "L12.H08",
+      "type": "attn",
+      "layer": 12,
+      "head": 8,
+      "label": "L12.H8"
+    },
+    {
+      "id": "L12.H09",
+      "type": "attn",
+      "layer": 12,
+      "head": 9,
+      "label": "L12.H9"
+    },
+    {
+      "id": "L12.H10",
+      "type": "attn",
+      "layer": 12,
+      "head": 10,
+      "label": "L12.H10"
+    },
+    {
+      "id": "L12.H11",
+      "type": "attn",
+      "layer": 12,
+      "head": 11,
+      "label": "L12.H11"
+    },
+    {
+      "id": "L12.N000",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 0,
+      "label": "L12.N0"
+    },
+    {
+      "id": "L12.N001",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 1,
+      "label": "L12.N1"
+    },
+    {
+      "id": "L12.N002",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 2,
+      "label": "L12.N2"
+    },
+    {
+      "id": "L12.N003",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 3,
+      "label": "L12.N3"
+    },
+    {
+      "id": "L12.N004",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 4,
+      "label": "L12.N4"
+    },
+    {
+      "id": "L12.N005",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 5,
+      "label": "L12.N5"
+    },
+    {
+      "id": "L12.N006",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 6,
+      "label": "L12.N6"
+    },
+    {
+      "id": "L12.N007",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 7,
+      "label": "L12.N7"
+    },
+    {
+      "id": "L12.N008",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 8,
+      "label": "L12.N8"
+    },
+    {
+      "id": "L12.N009",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 9,
+      "label": "L12.N9"
+    },
+    {
+      "id": "L12.N010",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 10,
+      "label": "L12.N10"
+    },
+    {
+      "id": "L12.N011",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 11,
+      "label": "L12.N11"
+    },
+    {
+      "id": "L12.N012",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 12,
+      "label": "L12.N12"
+    },
+    {
+      "id": "L12.N013",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 13,
+      "label": "L12.N13"
+    },
+    {
+      "id": "L12.N014",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 14,
+      "label": "L12.N14"
+    },
+    {
+      "id": "L12.N015",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 15,
+      "label": "L12.N15"
+    },
+    {
+      "id": "L12.N016",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 16,
+      "label": "L12.N16"
+    },
+    {
+      "id": "L12.N017",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 17,
+      "label": "L12.N17"
+    },
+    {
+      "id": "L12.N018",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 18,
+      "label": "L12.N18"
+    },
+    {
+      "id": "L12.N019",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 19,
+      "label": "L12.N19"
+    },
+    {
+      "id": "L12.N020",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 20,
+      "label": "L12.N20"
+    },
+    {
+      "id": "L12.N021",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 21,
+      "label": "L12.N21"
+    },
+    {
+      "id": "L12.N022",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 22,
+      "label": "L12.N22"
+    },
+    {
+      "id": "L12.N023",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 23,
+      "label": "L12.N23"
+    },
+    {
+      "id": "L12.N024",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 24,
+      "label": "L12.N24"
+    },
+    {
+      "id": "L12.N025",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 25,
+      "label": "L12.N25"
+    },
+    {
+      "id": "L12.N026",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 26,
+      "label": "L12.N26"
+    },
+    {
+      "id": "L12.N027",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 27,
+      "label": "L12.N27"
+    },
+    {
+      "id": "L12.N028",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 28,
+      "label": "L12.N28"
+    },
+    {
+      "id": "L12.N029",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 29,
+      "label": "L12.N29"
+    },
+    {
+      "id": "L12.N030",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 30,
+      "label": "L12.N30"
+    },
+    {
+      "id": "L12.N031",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 31,
+      "label": "L12.N31"
+    },
+    {
+      "id": "L12.N032",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 32,
+      "label": "L12.N32"
+    },
+    {
+      "id": "L12.N033",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 33,
+      "label": "L12.N33"
+    },
+    {
+      "id": "L12.N034",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 34,
+      "label": "L12.N34"
+    },
+    {
+      "id": "L12.N035",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 35,
+      "label": "L12.N35"
+    },
+    {
+      "id": "L12.N036",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 36,
+      "label": "L12.N36"
+    },
+    {
+      "id": "L12.N037",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 37,
+      "label": "L12.N37"
+    },
+    {
+      "id": "L12.N038",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 38,
+      "label": "L12.N38"
+    },
+    {
+      "id": "L12.N039",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 39,
+      "label": "L12.N39"
+    },
+    {
+      "id": "L12.N040",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 40,
+      "label": "L12.N40"
+    },
+    {
+      "id": "L12.N041",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 41,
+      "label": "L12.N41"
+    },
+    {
+      "id": "L12.N042",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 42,
+      "label": "L12.N42"
+    },
+    {
+      "id": "L12.N043",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 43,
+      "label": "L12.N43"
+    },
+    {
+      "id": "L12.N044",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 44,
+      "label": "L12.N44"
+    },
+    {
+      "id": "L12.N045",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 45,
+      "label": "L12.N45"
+    },
+    {
+      "id": "L12.N046",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 46,
+      "label": "L12.N46"
+    },
+    {
+      "id": "L12.N047",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 47,
+      "label": "L12.N47"
+    },
+    {
+      "id": "L12.N048",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 48,
+      "label": "L12.N48"
+    },
+    {
+      "id": "L12.N049",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 49,
+      "label": "L12.N49"
+    },
+    {
+      "id": "L12.N050",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 50,
+      "label": "L12.N50"
+    },
+    {
+      "id": "L12.N051",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 51,
+      "label": "L12.N51"
+    },
+    {
+      "id": "L12.N052",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 52,
+      "label": "L12.N52"
+    },
+    {
+      "id": "L12.N053",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 53,
+      "label": "L12.N53"
+    },
+    {
+      "id": "L12.N054",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 54,
+      "label": "L12.N54"
+    },
+    {
+      "id": "L12.N055",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 55,
+      "label": "L12.N55"
+    },
+    {
+      "id": "L12.N056",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 56,
+      "label": "L12.N56"
+    },
+    {
+      "id": "L12.N057",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 57,
+      "label": "L12.N57"
+    },
+    {
+      "id": "L12.N058",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 58,
+      "label": "L12.N58"
+    },
+    {
+      "id": "L12.N059",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 59,
+      "label": "L12.N59"
+    },
+    {
+      "id": "L12.N060",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 60,
+      "label": "L12.N60"
+    },
+    {
+      "id": "L12.N061",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 61,
+      "label": "L12.N61"
+    },
+    {
+      "id": "L12.N062",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 62,
+      "label": "L12.N62"
+    },
+    {
+      "id": "L12.N063",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 63,
+      "label": "L12.N63"
+    },
+    {
+      "id": "L12.N064",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 64,
+      "label": "L12.N64"
+    },
+    {
+      "id": "L12.N065",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 65,
+      "label": "L12.N65"
+    },
+    {
+      "id": "L12.N066",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 66,
+      "label": "L12.N66"
+    },
+    {
+      "id": "L12.N067",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 67,
+      "label": "L12.N67"
+    },
+    {
+      "id": "L12.N068",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 68,
+      "label": "L12.N68"
+    },
+    {
+      "id": "L12.N069",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 69,
+      "label": "L12.N69"
+    },
+    {
+      "id": "L12.N070",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 70,
+      "label": "L12.N70"
+    },
+    {
+      "id": "L12.N071",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 71,
+      "label": "L12.N71"
+    },
+    {
+      "id": "L12.N072",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 72,
+      "label": "L12.N72"
+    },
+    {
+      "id": "L12.N073",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 73,
+      "label": "L12.N73"
+    },
+    {
+      "id": "L12.N074",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 74,
+      "label": "L12.N74"
+    },
+    {
+      "id": "L12.N075",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 75,
+      "label": "L12.N75"
+    },
+    {
+      "id": "L12.N076",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 76,
+      "label": "L12.N76"
+    },
+    {
+      "id": "L12.N077",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 77,
+      "label": "L12.N77"
+    },
+    {
+      "id": "L12.N078",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 78,
+      "label": "L12.N78"
+    },
+    {
+      "id": "L12.N079",
+      "type": "mlp",
+      "layer": 12,
+      "neuronIdx": 79,
+      "label": "L12.N79"
+    },
+    {
+      "id": "unembed",
+      "type": "unembed",
+      "layer": 13,
+      "label": "Unembed"
+    }
+  ]
+}
