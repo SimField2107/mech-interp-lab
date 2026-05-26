@@ -125,11 +125,33 @@ export default function Home() {
           <h1 className="text-4xl font-medium text-fg-0 mb-6">
             Mechanistic Interpretability Lab
           </h1>
-          <p className="text-fg-1 text-lg leading-relaxed max-w-2xl mb-12">
+          <p className="text-fg-1 text-lg leading-relaxed max-w-2xl mb-6">
             Interactive visualization tools for understanding how transformer
-            models process information. Explore circuits, attention patterns,
-            and layer-by-layer predictions.
+            models process information internally.
           </p>
+          <p className="text-fg-2 leading-relaxed max-w-2xl mb-8">
+            Mechanistic interpretability treats neural networks like reverse-engineering 
+            a complex circuit. Instead of treating models as black boxes, we map their 
+            internal components—attention heads, neurons, weight matrices—to understand 
+            <em className="text-fg-1"> how</em> they compute answers, not just <em className="text-fg-1">what</em> they output. 
+            This lab visualizes three core techniques: circuit tracing, attention pattern 
+            analysis, and the logit lens.
+          </p>
+
+          <div className="grid sm:grid-cols-3 gap-4 mb-12">
+            <div className="bg-surface-1 border border-rule-strong rounded-sm p-4">
+              <div className="font-mono text-signal text-xs mb-2">01 Circuit</div>
+              <p className="text-fg-2 text-sm">Trace activation paths and ablate nodes to find causal circuits</p>
+            </div>
+            <div className="bg-surface-1 border border-rule-strong rounded-sm p-4">
+              <div className="font-mono text-signal text-xs mb-2">02 Attention</div>
+              <p className="text-fg-2 text-sm">Visualize how tokens attend to each other across layers</p>
+            </div>
+            <div className="bg-surface-1 border border-rule-strong rounded-sm p-4">
+              <div className="font-mono text-signal text-xs mb-2">03 Logit Lens</div>
+              <p className="text-fg-2 text-sm">Watch predictions evolve from early to final layers</p>
+            </div>
+          </div>
 
           <button
             onClick={() => scrollTo("circuit")}
@@ -201,10 +223,16 @@ function CircuitSection() {
         <SectionHeader
           number="01"
           title="Circuit Diagram"
-          description="Trace activation paths through the model. Toggle neurons to observe causal effects on predictions."
+          subtitle="Mapping the neural pathways of language understanding"
+          description="Modern transformers process information through a series of layers, each containing attention heads and MLP neurons. This visualization maps these components as a 3D graph, showing how information flows from input to output. When you type a prompt, watch the activation trace light up—these are the specific neurons that fire to produce the prediction."
+          concepts={[
+            { term: "Nodes", definition: "Attention heads (rings) and MLP neurons (grid) at each layer" },
+            { term: "Edges", definition: "Weighted connections showing information flow between layers" },
+            { term: "Ablation", definition: "Disabling a node to test if it's causally important for the output" },
+          ]}
         />
 
-        <div className="mt-8 bg-surface-1 rounded-sm border border-rule-strong overflow-hidden">
+        <div className="bg-surface-1 rounded-sm border border-rule-strong overflow-hidden">
           <div className="p-4 hairline-b flex items-center gap-4 flex-wrap">
             <input
               type="text"
@@ -298,10 +326,16 @@ function AttentionSection() {
         <SectionHeader
           number="02"
           title="Attention Explorer"
-          description="Visualize attention patterns between tokens. Switch between heatmap and 3D beam views."
+          subtitle="How tokens 'look at' each other during processing"
+          description="Attention is the core mechanism that lets transformers understand context. Each attention head learns different patterns—some track syntax, others semantics, some copy information forward. The heatmap shows attention weights: brighter cells mean token A is paying more attention to token B. The beam view renders these same weights as curved connections in 3D space."
+          concepts={[
+            { term: "Layer", definition: "Deeper layers capture more abstract patterns" },
+            { term: "Head", definition: "Each head specializes in different linguistic features" },
+            { term: "Attention Weight", definition: "How much one token position 'attends to' another" },
+          ]}
         />
 
-        <div className="mt-8 grid lg:grid-cols-[280px_1fr] gap-6">
+        <div className="grid lg:grid-cols-[280px_1fr] gap-6">
           <div className="space-y-4">
             <Panel title="Layer">
               <div className="grid grid-cols-4 gap-1">
@@ -424,10 +458,16 @@ function LogitLensSection() {
         <SectionHeader
           number="03"
           title="Logit Lens"
-          description="Watch predictions evolve layer by layer. Identify when the model commits to its answer."
+          subtitle="Watching the model 'make up its mind' layer by layer"
+          description="The logit lens technique applies the final unembedding matrix at each intermediate layer, letting us peek at what the model would predict if forced to output at that point. Early layers show diffuse, uncertain predictions. As we go deeper, the model converges toward its final answer. The 'commit point' is where the correct token first becomes the top prediction—revealing how many layers the model needs to 'solve' this particular prompt."
+          concepts={[
+            { term: "Unembedding", definition: "Converting hidden states back to vocabulary probabilities" },
+            { term: "Commit Point", definition: "The layer where the model first confidently predicts the answer" },
+            { term: "Top-K", definition: "The highest-probability next tokens at each layer" },
+          ]}
         />
 
-        <div className="mt-8 bg-surface-1 rounded-sm border border-rule-strong p-6">
+        <div className="bg-surface-1 rounded-sm border border-rule-strong p-6">
           <div className="mb-6 pb-4 hairline-b">
             <div className="font-mono text-xs text-fg-0">
               &quot;{prompt}&quot;
@@ -449,20 +489,41 @@ function LogitLensSection() {
 function SectionHeader({
   number,
   title,
+  subtitle,
   description,
+  concepts,
 }: {
   number: string;
   title: string;
+  subtitle: string;
   description: string;
+  concepts?: Array<{ term: string; definition: string }>;
 }) {
   return (
-    <div className="flex items-start gap-6">
-      <div className="w-12 h-12 bg-surface-2 rounded-sm flex items-center justify-center shrink-0">
-        <span className="font-mono text-lg text-fg-2">{number}</span>
+    <div className="mb-8">
+      <div className="flex items-start gap-6 mb-6">
+        <div className="w-12 h-12 bg-surface-2 rounded-sm flex items-center justify-center shrink-0">
+          <span className="font-mono text-lg text-fg-2">{number}</span>
+        </div>
+        <div>
+          <h2 className="font-mono text-2xl text-fg-0 mb-1">{title}</h2>
+          <p className="text-signal text-sm">{subtitle}</p>
+        </div>
       </div>
-      <div>
-        <h2 className="font-mono text-2xl text-fg-0 mb-2">{title}</h2>
-        <p className="text-fg-2 max-w-xl">{description}</p>
+      
+      <div className="pl-[72px]">
+        <p className="text-fg-1 leading-relaxed max-w-2xl mb-4">{description}</p>
+        
+        {concepts && concepts.length > 0 && (
+          <div className="flex flex-wrap gap-4 mt-4">
+            {concepts.map((c) => (
+              <div key={c.term} className="bg-surface-1 border border-rule-strong rounded-sm px-3 py-2">
+                <span className="font-mono text-[10px] text-signal uppercase tracking-wider">{c.term}</span>
+                <p className="text-fg-2 text-xs mt-1">{c.definition}</p>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
